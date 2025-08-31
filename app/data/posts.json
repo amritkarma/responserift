@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "userId": 5,
+    "title": "Exploring REST APIs in 2025",
+    "body": "REST APIs continue to be the backbone of modern web development. In 2025, developers are focusing more on schema-first designs, strong authentication mechanisms, and better developer tooling. This post covers REST fundamentals, how they're evolving, and what tools you should be aware of this year.",
+    "tags": ["1", "16", "15"],
+    "category": "API Design",
+    "createdAt": "2025-07-01T10:12:00Z"
+  },
+  {
+    "id": 2,
+    "userId": 17,
+    "title": "Deploying Full-Stack Apps on Vercel",
+    "body": "Vercel makes it easy to deploy both frontend and backend code. In this guide, we explore best practices for deploying modern Next.js + FastAPI apps, integrating environment variables, handling API routes, and optimizing performance post-deploy.",
+    "tags": ["13", "17", "18"],
+    "category": "DevOps",
+    "createdAt": "2025-07-01T15:22:00Z"
+  },
+  {
+    "id": 3,
+    "userId": 9,
+    "title": "Understanding API Rate Limits",
+    "body": "APIs need to be protected from abuse and overuse. Rate limiting helps prevent DDoS attacks and keeps APIs performant. This post discusses various rate-limiting techniques, libraries, and headers used in production APIs.",
+    "tags": ["1", "2", "3"],
+    "category": "Security",
+    "createdAt": "2025-07-02T08:45:00Z"
+  },
+  {
+    "id": 4,
+    "userId": 26,
+    "title": "Top 5 JSON Placeholder Alternatives",
+    "body": "Tired of using the same JSONPlaceholder? We review 5 modern mock API tools that support authentication, dynamic responses, CORS headers, and more realistic data relationships. Great for frontend and mobile devs.",
+    "tags": ["4", "5", "6"],
+    "category": "Mock APIs",
+    "createdAt": "2025-07-02T13:18:00Z"
+  },
+  {
+    "id": 5,
+    "userId": 12,
+    "title": "Building a Custom API Generator",
+    "body": "Why rely on public fake APIs when you can build your own? Learn how to structure JSON files, create relationships between entities, and serve mock endpoints with minimal backend setup.",
+    "tags": ["1", "7", "8"],
+    "category": "Tooling",
+    "createdAt": "2025-07-03T09:00:00Z"
+  },
+  {
+    "id": 6,
+    "userId": 3,
+    "title": "Designing JSON Schemas for APIs",
+    "body": "JSON Schema is the foundation for validating API payloads. This post explores how to design clean, reusable schemas and integrate them with validation libraries in JavaScript and Python.",
+    "tags": ["5", "9", "1"],
+    "category": "API Design",
+    "createdAt": "2025-07-03T16:30:00Z"
+  },
+  {
+    "id": 7,
+    "userId": 8,
+    "title": "Handling CORS in Modern APIs",
+    "body": "Cross-Origin Resource Sharing (CORS) can make or break your frontend integration. Learn how to configure proper CORS headers using Express, FastAPI, or custom middleware solutions.",
+    "tags": ["10", "11", "1"],
+    "category": "Security",
+    "createdAt": "2025-07-04T11:45:00Z"
+  },
+  {
+    "id": 8,
+    "userId": 19,
+    "title": "Next.js API Routes vs FastAPI",
+    "body": "Both Next.js and FastAPI are powerful tools for API development. But which one is better for your stack? In this deep dive, we compare their strengths, developer experience, and scalability.",
+    "tags": ["18", "12", "13"],
+    "category": "Comparison",
+    "createdAt": "2025-07-04T14:10:00Z"
+  },
+  {
+    "id": 9,
+    "userId": 22,
+    "title": "Using Dummy Data in Frontend Development",
+    "body": "Working without a backend? No problem. Learn how to use fake data libraries like Faker.js and mock API platforms to build responsive, data-driven UIs from day one.",
+    "tags": ["14", "15", "16"],
+    "category": "Frontend",
+    "createdAt": "2025-07-05T10:10:00Z"
+  },
+  {
+    "id": 10,
+    "userId": 6,
+    "title": "Adding Search Filters to Your Fake API",
+    "body": "Give your mock API superpowers by adding query params for filtering, sorting, and pagination. These features make your frontend testing more realistic and powerful.",
+    "tags": ["17", "1", "18"],
+    "category": "Features",
+    "createdAt": "2025-07-05T13:37:00Z"
+  },
+  {
+    "id": 11,
+    "userId": 28,
+    "title": "Creating a Static API with JSON Files",
+    "body": "JSON files can be turned into endpoints using static site generators or Vercel. Learn how to create mock APIs without a single line of backend code.",
+    "tags": ["19", "5", "20"],
+    "category": "Static APIs",
+    "createdAt": "2025-07-06T09:00:00Z"
+  },
+  {
+    "id": 12,
+    "userId": 4,
+    "title": "Rate Limiting in Mock Servers",
+    "body": "Simulating API constraints like rate limits helps test real-world behaviors. We'll show you how to add delays, limits, and error messages using simple configuration.",
+    "tags": ["rate-limit", "mock", "server"],
+    "category": "Testing",
+    "createdAt": "2025-07-06T14:22:00Z"
+  },
+  {
+    "id": 13,
+    "userId": 10,
+    "title": "Why Developers Love Fake APIs",
+    "body": "Fake APIs save time, reduce dependencies, and empower frontend teams to move fast. This article explains why more dev teams are adopting mock-first workflows.",
+    "tags": ["devtools", "mockapi", "frontend"],
+    "category": "Developer Tools",
+    "createdAt": "2025-07-07T11:05:00Z"
+  },
+  {
+    "id": 14,
+    "userId": 11,
+    "title": "Customizing Response Delays for Testing",
+    "body": "Need to test loading states or timeout handling? Here’s how to add controlled delays to your API responses to simulate real network latency.",
+    "tags": ["delay", "testing", "1"],
+    "category": "Testing",
+    "createdAt": "2025-07-07T17:45:00Z"
+  },
+  {
+    "id": 15,
+    "userId": 30,
+    "title": "Building a Realistic E-commerce API",
+    "body": "Products, carts, users, orders — we break down how to build an e-commerce mock API from scratch with real relationships and validation.",
+    "tags": ["ecommerce", "json", "structure"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-08T08:50:00Z"
+  },
+  {
+    "id": 16,
+    "userId": 15,
+    "title": "Using Tags in JSON Data Models",
+    "body": "Tags are essential for filtering and searching. Learn to model them properly in your API schema and support tag-based queries in your endpoints.",
+    "tags": ["json", "tags", "modeling"],
+    "category": "Data Modeling",
+    "createdAt": "2025-07-08T15:15:00Z"
+  },
+  {
+    "id": 17,
+    "userId": 1,
+    "title": "Mocking Authentication in Fake APIs",
+    "body": "Simulate login, signup, and token validation with mock endpoints. It’s easy to add basic auth flows to fake APIs for testing protected routes.",
+    "tags": ["auth", "login", "testing"],
+    "category": "Authentication",
+    "createdAt": "2025-07-09T13:40:00Z"
+  },
+  {
+    "id": 18,
+    "userId": 21,
+    "title": "Fake API Pagination Like a Pro",
+    "body": "Adding pagination to your mock API makes it feel more real. Here’s how to implement `page`, `limit`, and `offset` patterns easily.",
+    "tags": ["pagination", "1", "ux"],
+    "category": "Features",
+    "createdAt": "2025-07-09T16:22:00Z"
+  },
+  {
+    "id": 19,
+    "userId": 34,
+    "title": "Serving JSON Files on Vercel",
+    "body": "Need quick mock data online? Upload your JSON files and turn them into endpoints with Vercel in under 5 minutes.",
+    "tags": ["17", "json", "static"],
+    "category": "Static APIs",
+    "createdAt": "2025-07-10T09:50:00Z"
+  },
+  {
+    "id": 20,
+    "userId": 2,
+    "title": "API Playground for Developers",
+    "body": "Interactive documentation, sandbox testing, and live preview — learn how to add a playground to your mock API service.",
+    "tags": ["playground", "1", "developer"],
+    "category": "Developer Tools",
+    "createdAt": "2025-07-10T12:10:00Z"
+  },
+  {
+    "id": 21,
+    "userId": 7,
+    "title": "Advanced Filtering with Query Params",
+    "body": "Want to support filtering by category, date, or tag? Here’s how to implement flexible query param logic in your fake API routes.",
+    "tags": ["filters", "query", "1"],
+    "category": "Features",
+    "createdAt": "2025-07-11T10:20:00Z"
+  },
+  {
+    "id": 22,
+    "userId": 16,
+    "title": "Mock vs Real Data in Staging",
+    "body": "When should you use fake vs real data? This post helps you decide when to simulate data and when to connect to production-like environments.",
+    "tags": ["staging", "testing", "mock"],
+    "category": "Staging",
+    "createdAt": "2025-07-11T15:00:00Z"
+  },
+  {
+    "id": 23,
+    "userId": 40,
+    "title": "Hosting Mock APIs in 2025",
+    "body": "Hosting your fake API is easier than ever. We walk through using Vercel, Netlify, and GitHub Pages to publish endpoints instantly.",
+    "tags": ["mock", "hosting", "1"],
+    "category": "DevOps",
+    "createdAt": "2025-07-11T17:20:00Z"
+  },
+  {
+    "id": 24,
+    "userId": 33,
+    "title": "Documenting Your API with Swagger",
+    "body": "Documentation is crucial even for mock APIs. Here's how to generate Swagger/OpenAPI docs automatically and integrate them into your platform.",
+    "tags": ["swagger", "docs", "1"],
+    "category": "Documentation",
+    "createdAt": "2025-07-12T08:00:00Z"
+  },
+  {
+    "id": 25,
+    "userId": 36,
+    "title": "Adding Response Delay for Realistic Testing",
+    "body": "A good mock API mimics real conditions. Learn how to add response delays or throttling to simulate server load and slow connections.",
+    "tags": ["delay", "latency", "1"],
+    "category": "Testing",
+    "createdAt": "2025-07-12T12:15:00Z"
+  },
+  {
+    "id": 26,
+    "userId": 14,
+    "title": "How to Structure Your API Responses",
+    "body": "Consistent API response formats are critical for frontend integration. In this article, we'll explore envelope patterns, error handling formats, and strategies for versioning your JSON output effectively.",
+    "tags": ["1", "structure", "json"],
+    "category": "API Design",
+    "createdAt": "2025-07-13T10:00:00Z"
+  },
+  {
+    "id": 27,
+    "userId": 37,
+    "title": "Creating a Modular Frontend with Dummy Data",
+    "body": "Using mock APIs and modular components can help teams work in parallel. This post shares how to design a component-driven frontend architecture with mock endpoints as data sources.",
+    "tags": ["frontend", "mock", "components"],
+    "category": "Frontend",
+    "createdAt": "2025-07-13T12:45:00Z"
+  },
+  {
+    "id": 28,
+    "userId": 20,
+    "title": "Advanced Mocking with Middleware",
+    "body": "Middleware allows you to intercept and manipulate mock API responses. Learn how to simulate authentication, authorization, and even database delays using simple middleware functions.",
+    "tags": ["mock", "middleware", "testing"],
+    "category": "Testing",
+    "createdAt": "2025-07-14T09:20:00Z"
+  },
+  {
+    "id": 29,
+    "userId": 44,
+    "title": "API Error Responses: Best Practices",
+    "body": "Clear error messages help consumers debug issues quickly. We'll explore how to format 4xx and 5xx responses and include meaningful error codes, messages, and metadata.",
+    "tags": ["1", "error", "formatting"],
+    "category": "API Design",
+    "createdAt": "2025-07-14T14:10:00Z"
+  },
+  {
+    "id": 30,
+    "userId": 11,
+    "title": "Simulating E-commerce Checkout APIs",
+    "body": "Want to test the entire checkout flow without a backend? We walk through building endpoints for cart, payment, order summary, and confirmation using only static JSON.",
+    "tags": ["ecommerce", "checkout", "1"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-15T08:30:00Z"
+  },
+  {
+    "id": 31,
+    "userId": 6,
+    "title": "How to Auto-generate Fake Data with Faker.js",
+    "body": "Faker.js can generate hundreds of fields across names, addresses, dates, and more. Learn how to create scalable datasets for users, products, posts, and comments.",
+    "tags": ["faker", "mockdata", "automation"],
+    "category": "Mock APIs",
+    "createdAt": "2025-07-15T13:15:00Z"
+  },
+  {
+    "id": 32,
+    "userId": 48,
+    "title": "Making FastAPI Feel Like a Fake API Server",
+    "body": "FastAPI is fast and flexible. In this guide, you'll learn how to use it to build fake endpoints with custom routes, response delays, validation, and auto-generated docs.",
+    "tags": ["fastapi", "mock", "docs"],
+    "category": "Backend",
+    "createdAt": "2025-07-16T09:10:00Z"
+  },
+  {
+    "id": 33,
+    "userId": 2,
+    "title": "Creating Taggable APIs with JSON Relationships",
+    "body": "Want to allow tagging in your API? We'll show you how to model many-to-many relationships in JSON and return tag metadata in your responses.",
+    "tags": ["tags", "json", "relationships"],
+    "category": "Data Modeling",
+    "createdAt": "2025-07-16T14:30:00Z"
+  },
+  {
+    "id": 34,
+    "userId": 55,
+    "title": "The Developer Experience of Using Mock APIs",
+    "body": "A great mock API isn't just functional — it’s enjoyable to use. We explore how to provide meaningful feedback, docs, examples, and tooling for developers using your fake endpoints.",
+    "tags": ["developer", "mock", "ux"],
+    "category": "Developer Tools",
+    "createdAt": "2025-07-17T11:20:00Z"
+  },
+  {
+    "id": 35,
+    "userId": 29,
+    "title": "Creating Complex API Relationships with Static JSON",
+    "body": "Yes, you can model one-to-many, many-to-many, and nested resources with flat JSON files. Learn how to organize your data structure and cross-reference efficiently.",
+    "tags": ["json", "relationships", "structure"],
+    "category": "Static APIs",
+    "createdAt": "2025-07-17T16:50:00Z"
+  },
+  {
+    "id": 36,
+    "userId": 19,
+    "title": "Using Environment Variables in Your Fake API Project",
+    "body": "Even static projects benefit from .env files. Learn how to configure mock endpoints to behave differently in dev, test, and preview environments.",
+    "tags": ["env", "mock", "config"],
+    "category": "DevOps",
+    "createdAt": "2025-07-18T10:40:00Z"
+  },
+  {
+    "id": 37,
+    "userId": 13,
+    "title": "Design Patterns for RESTful Fake APIs",
+    "body": "Follow REST conventions even in mock APIs. We'll go over endpoint naming, method use (GET/POST/PUT/DELETE), and best practices for URI design.",
+    "tags": ["16", "patterns", "1"],
+    "category": "API Design",
+    "createdAt": "2025-07-18T13:30:00Z"
+  },
+  {
+    "id": 38,
+    "userId": 25,
+    "title": "Optimizing JSON Size in Static APIs",
+    "body": "Speed matters. This post walks through reducing JSON payload size using nested resources, removing redundant fields, and structuring responses for faster loads.",
+    "tags": ["json", "performance", "optimization"],
+    "category": "Performance",
+    "createdAt": "2025-07-19T09:00:00Z"
+  },
+  {
+    "id": 39,
+    "userId": 50,
+    "title": "When to Use UUIDs in Your API Models",
+    "body": "Should your IDs be numeric or UUIDs? We'll explore the tradeoffs and how to integrate UUIDs into your fake API datasets cleanly.",
+    "tags": ["uuid", "id", "modeling"],
+    "category": "Data Modeling",
+    "createdAt": "2025-07-19T15:45:00Z"
+  },
+  {
+    "id": 40,
+    "userId": 8,
+    "title": "Exposing Mock APIs with Swagger UI",
+    "body": "Swagger UI can be used to display your fake endpoints with sample input/output. Here's how to auto-generate docs even without a real backend.",
+    "tags": ["swagger", "docs", "ui"],
+    "category": "Documentation",
+    "createdAt": "2025-07-20T08:30:00Z"
+  },
+  {
+    "id": 41,
+    "userId": 24,
+    "title": "Using GitHub Actions to Deploy Static APIs",
+    "body": "Automate your API deployment. We’ll show you how to push changes to a GitHub repo and deploy JSON files to Vercel or Netlify using Actions.",
+    "tags": ["github", "deploy", "ci"],
+    "category": "DevOps",
+    "createdAt": "2025-07-20T12:00:00Z"
+  },
+  {
+    "id": 42,
+    "userId": 17,
+    "title": "Fake API Use Cases Beyond Frontend Testing",
+    "body": "Mock APIs aren't just for UI work. Learn how QA, mobile teams, and integration testers use them to simulate edge cases and system behaviors.",
+    "tags": ["usecase", "mock", "testing"],
+    "category": "Use Cases",
+    "createdAt": "2025-07-21T10:10:00Z"
+  },
+  {
+    "id": 43,
+    "userId": 31,
+    "title": "Rate Limiting with Express Middleware",
+    "body": "Simulate production-like rate limits on your local Express server using middleware. We'll build from scratch with time windows and custom error messages.",
+    "tags": ["express", "rate-limit", "mock"],
+    "category": "Backend",
+    "createdAt": "2025-07-21T15:00:00Z"
+  },
+  {
+    "id": 44,
+    "userId": 46,
+    "title": "Mocking Webhooks in JSON APIs",
+    "body": "Want to simulate webhook behavior? We’ll show you how to set up POST endpoints that return example payloads or mimic real-time data pushes.",
+    "tags": ["webhooks", "mock", "json"],
+    "category": "Integration",
+    "createdAt": "2025-07-22T09:40:00Z"
+  },
+  {
+    "id": 45,
+    "userId": 18,
+    "title": "Organizing Large Fake API Projects",
+    "body": "As your mock API grows, so should your structure. This post covers how to split resources, use folders, and define modular schemas for maintainability.",
+    "tags": ["structure", "scale", "json"],
+    "category": "Architecture",
+    "createdAt": "2025-07-22T13:30:00Z"
+  },
+  {
+    "id": 46,
+    "userId": 27,
+    "title": "How to Simulate 401 and 403 Errors",
+    "body": "Testing authentication errors? We'll show you how to conditionally return HTTP 401 and 403 responses in your fake endpoints using simple logic.",
+    "tags": ["auth", "errors", "mock"],
+    "category": "Authentication",
+    "createdAt": "2025-07-23T11:00:00Z"
+  },
+  {
+    "id": 47,
+    "userId": 3,
+    "title": "Dynamic URL Parameters in Static Mock APIs",
+    "body": "You don't need a real backend to support URL params like `/posts/:id`. Here’s how to simulate dynamic routes using static files and rewrite rules.",
+    "tags": ["routing", "url", "static"],
+    "category": "Static APIs",
+    "createdAt": "2025-07-23T15:10:00Z"
+  },
+  {
+    "id": 48,
+    "userId": 22,
+    "title": "Exposing GraphQL-like Filters in REST APIs",
+    "body": "REST can support flexible queries too. We'll show you how to add nested filters, projections, and partial field selection to mimic GraphQL behavior.",
+    "tags": ["graphql", "filter", "16"],
+    "category": "API Design",
+    "createdAt": "2025-07-24T10:30:00Z"
+  },
+  {
+    "id": 49,
+    "userId": 38,
+    "title": "Managing Categories and Tags in JSON",
+    "body": "Categories and tags help organize content. Learn how to define them, reference them in other resources, and keep your data consistent.",
+    "tags": ["tags", "categories", "json"],
+    "category": "Data Modeling",
+    "createdAt": "2025-07-24T13:00:00Z"
+  },
+  {
+    "id": 50,
+    "userId": 5,
+    "title": "The Psychology of Developer-Focused APIs",
+    "body": "Great APIs aren't just functional — they make developers feel productive and confident. Explore how naming, examples, and feedback loops matter.",
+    "tags": ["developer", "1", "experience"],
+    "category": "Developer Tools",
+    "createdAt": "2025-07-25T11:45:00Z"
+  },
+  {
+    "id": 51,
+    "userId": 17,
+    "title": "Mocking Product Listings for E-commerce Apps",
+    "body": "You don’t need a full backend to test product grids. Learn how to create fake product listings with categories, prices, and availability filters using only JSON.",
+    "tags": ["ecommerce", "products", "mock"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-25T15:00:00Z"
+  },
+  {
+    "id": 52,
+    "userId": 39,
+    "title": "Testing Frontend Forms with Fake API Validation",
+    "body": "Want to simulate real-time validation like email checks or password rules? Use mock APIs that return field-specific errors for more realistic frontend testing.",
+    "tags": ["forms", "validation", "frontend"],
+    "category": "Frontend",
+    "createdAt": "2025-07-25T18:30:00Z"
+  },
+  {
+    "id": 53,
+    "userId": 12,
+    "title": "Pagination Strategies for Large Fake Datasets",
+    "body": "Handling 10k+ items in a mock API? We'll show you how to implement client-side pagination logic with page, limit, and offset support using JSON.",
+    "tags": ["pagination", "datasets", "1"],
+    "category": "Features",
+    "createdAt": "2025-07-26T10:15:00Z"
+  },
+  {
+    "id": 54,
+    "userId": 56,
+    "title": "Creating JSON Schemas for Fake API Validation",
+    "body": "Use JSON Schema to enforce structure in your fake APIs. We'll cover basic field types, required fields, enums, and nested object validation.",
+    "tags": ["schema", "json", "validation"],
+    "category": "Documentation",
+    "createdAt": "2025-07-26T13:40:00Z"
+  },
+  {
+    "id": 55,
+    "userId": 23,
+    "title": "Simulating Payment Gateways in Static APIs",
+    "body": "Create fake Stripe or PayPal endpoints to test your payment flow. Learn how to simulate successful and failed payments with response logic.",
+    "tags": ["payments", "gateway", "mock"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-26T16:55:00Z"
+  },
+  {
+    "id": 56,
+    "userId": 9,
+    "title": "Mocking Notifications and Alerts APIs",
+    "body": "Push notifications, email triggers, and alert banners — this guide shows how to mock them all using timed JSON responses.",
+    "tags": ["notifications", "alerts", "mock"],
+    "category": "Features",
+    "createdAt": "2025-07-27T10:25:00Z"
+  },
+  {
+    "id": 57,
+    "userId": 40,
+    "title": "Organizing API Endpoints by Feature or Resource",
+    "body": "Should your JSON files be grouped by resource or by feature? We explore folder structures and naming conventions for large fake API projects.",
+    "tags": ["1", "structure", "organization"],
+    "category": "Architecture",
+    "createdAt": "2025-07-27T13:10:00Z"
+  },
+  {
+    "id": 58,
+    "userId": 7,
+    "title": "Building a Postman Collection for Your Fake API",
+    "body": "A downloadable Postman collection makes your API easy to test. We show how to export your fake endpoints and organize requests into environments.",
+    "tags": ["postman", "tools", "testing"],
+    "category": "Developer Tools",
+    "createdAt": "2025-07-27T16:00:00Z"
+  },
+  {
+    "id": 59,
+    "userId": 15,
+    "title": "Simulating Inventory Systems with Mock APIs",
+    "body": "Inventory APIs aren’t just about stock counts — they include thresholds, updates, and backorder logic. Learn how to simulate this behavior in a fake API setup.",
+    "tags": ["inventory", "products", "1"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-28T09:45:00Z"
+  },
+  {
+    "id": 60,
+    "userId": 6,
+    "title": "Fake Analytics APIs for Frontend Dashboards",
+    "body": "Dashboards need data! Simulate analytics endpoints that return numbers, time series, and graph data to test your charts and components.",
+    "tags": ["analytics", "charts", "mock"],
+    "category": "Frontend",
+    "createdAt": "2025-07-28T12:30:00Z"
+  },
+  {
+    "id": 61,
+    "userId": 3,
+    "title": "Simulating Product Reviews and Ratings",
+    "body": "Show real-looking reviews on your frontend using a fake API. This guide explains how to model users, ratings, timestamps, and review filters.",
+    "tags": ["reviews", "ratings", "products"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-28T16:45:00Z"
+  },
+  {
+    "id": 62,
+    "userId": 45,
+    "title": "Embedding YouTube and Media Links in Mock Posts",
+    "body": "Need to test media-rich content? Learn how to include video links, images, and embeds in your JSON blog posts or product pages.",
+    "tags": ["media", "embed", "youtube"],
+    "category": "Features",
+    "createdAt": "2025-07-29T10:10:00Z"
+  },
+  {
+    "id": 63,
+    "userId": 16,
+    "title": "CORS Setup for Frontend-Fake API Integration",
+    "body": "Running your fake API on a different domain? Learn how to set up CORS headers and avoid cross-origin issues in local development.",
+    "tags": ["cors", "headers", "frontend"],
+    "category": "DevOps",
+    "createdAt": "2025-07-29T13:40:00Z"
+  },
+  {
+    "id": 64,
+    "userId": 52,
+    "title": "API Versioning in Static Files",
+    "body": "Static doesn’t mean stale. Learn how to version your fake API endpoints using folder structures and route rewriting on Vercel.",
+    "tags": ["versioning", "routes", "1"],
+    "category": "API Design",
+    "createdAt": "2025-07-29T17:00:00Z"
+  },
+  {
+    "id": 65,
+    "userId": 19,
+    "title": "Simulating User Avatars and Profiles in JSON",
+    "body": "Use placeholder image services and dynamic fields to create realistic user profiles for your mock social or team-based apps.",
+    "tags": ["users", "avatars", "profiles"],
+    "category": "Mock APIs",
+    "createdAt": "2025-07-30T09:30:00Z"
+  },
+  {
+    "id": 66,
+    "userId": 32,
+    "title": "Nested Routes in Fake API Design",
+    "body": "Modeling routes like `/users/1/posts/`? This guide shows how to use nested JSON files and rewrite rules to simulate hierarchical data.",
+    "tags": ["routing", "nested", "1"],
+    "category": "Architecture",
+    "createdAt": "2025-07-30T12:20:00Z"
+  },
+  {
+    "id": 67,
+    "userId": 26,
+    "title": "Tracking Orders and Status in a Fake Checkout Flow",
+    "body": "Want to simulate 'order placed', 'shipped', and 'delivered'? Learn how to model and filter order data with status fields.",
+    "tags": ["orders", "checkout", "ecommerce"],
+    "category": "E-commerce",
+    "createdAt": "2025-07-30T15:30:00Z"
+  },
+  {
+    "id": 68,
+    "userId": 10,
+    "title": "Localization in Mock APIs for Global Testing",
+    "body": "Test multilingual apps with fake APIs that return translated text, dates, and region-specific formats. Supports country-specific routes too.",
+    "tags": ["localization", "i18n", "mock"],
+    "category": "Features",
+    "createdAt": "2025-07-31T10:15:00Z"
+  },
+  {
+    "id": 69,
+    "userId": 35,
+    "title": "How to Document Fake API Parameters Clearly",
+    "body": "Query params can do a lot. Make sure your mock API includes clear docs for filters, sorts, pagination, and searching.",
+    "tags": ["docs", "parameters", "1"],
+    "category": "Documentation",
+    "createdAt": "2025-07-31T13:00:00Z"
+  },
+  {
+    "id": 70,
+    "userId": 41,
+    "title": "Using Faker.js to Generate Dynamic JSON Data",
+    "body": "Automate your fake data creation with Faker.js. Learn how to generate user names, emails, addresses, and more with minimal code.",
+    "tags": ["faker", "automation", "json"],
+    "category": "Tools",
+    "createdAt": "2025-07-31T16:20:00Z"
+  },
+  {
+    "id": 71,
+    "userId": 28,
+    "title": "Simulating Multi-tenant APIs with Static Files",
+    "body": "Multiple customers on one API? We cover strategies to serve tenant-specific data in a static fake API environment.",
+    "tags": ["multi-tenant", "static", "1"],
+    "category": "Architecture",
+    "createdAt": "2025-08-01T09:50:00Z"
+  },
+  {
+    "id": 72,
+    "userId": 13,
+    "title": "Rate Limiting Simulation for API Throttling Tests",
+    "body": "Learn to mock API rate limits and throttling errors to test your app’s resilience against server-side restrictions.",
+    "tags": ["rate-limit", "throttling", "testing"],
+    "category": "Testing",
+    "createdAt": "2025-08-01T12:30:00Z"
+  },
+  {
+    "id": 73,
+    "userId": 44,
+    "title": "Building a Custom 404 Page for Your Mock API",
+    "body": "Don’t forget error handling. This guide shows how to design a helpful 404 endpoint response for missing resources.",
+    "tags": ["errors", "404", "user-experience"],
+    "category": "Developer Tools",
+    "createdAt": "2025-08-01T15:10:00Z"
+  },
+  {
+    "id": 74,
+    "userId": 21,
+    "title": "Mocking Social Media Features in Fake APIs",
+    "body": "From likes and shares to friend requests, learn how to simulate common social media endpoints for prototyping.",
+    "tags": ["social", "features", "1"],
+    "category": "Features",
+    "createdAt": "2025-08-01T18:00:00Z"
+  },
+  {
+    "id": 75,
+    "userId": 5,
+    "title": "Strategies for Mocking Real-Time APIs",
+    "body": "Explore ways to mimic real-time updates with polling or websockets in static or serverless fake APIs.",
+    "tags": ["real-time", "websockets", "mock"],
+    "category": "Features",
+    "createdAt": "2025-08-02T09:00:00Z"
+  },
+  {
+    "id": 76,
+    "userId": 14,
+    "title": "Optimizing Fake APIs for Mobile App Testing",
+    "body": "Mobile apps have unique constraints like intermittent connectivity. Learn how to design fake APIs that simulate offline mode, latency, and data caching.",
+    "tags": ["mobile", "optimization", "testing"],
+    "category": "Mobile",
+    "createdAt": "2025-08-02T12:30:00Z"
+  },
+  {
+    "id": 77,
+    "userId": 37,
+    "title": "Version Control Best Practices for JSON API Data",
+    "body": "Keep your fake API data consistent and traceable by managing JSON files in Git. This post covers branching, pull requests, and resolving merge conflicts.",
+    "tags": ["version-control", "git", "data"],
+    "category": "DevOps",
+    "createdAt": "2025-08-02T15:45:00Z"
+  },
+  {
+    "id": 78,
+    "userId": 8,
+    "title": "Mocking Search APIs with Full-Text Filtering",
+    "body": "Add realistic search capabilities to your mock API by implementing full-text filters, fuzzy matching, and ranking algorithms in JSON responses.",
+    "tags": ["search", "filtering", "mock"],
+    "category": "Features",
+    "createdAt": "2025-08-02T18:00:00Z"
+  },
+  {
+    "id": 79,
+    "userId": 20,
+    "title": "Automated Testing with Fake APIs and Cypress",
+    "body": "Integrate your fake API with Cypress tests for reliable end-to-end testing. This guide explains how to stub API responses and control test data.",
+    "tags": ["testing", "cypress", "automation"],
+    "category": "Testing",
+    "createdAt": "2025-08-03T09:00:00Z"
+  },
+  {
+    "id": 80,
+    "userId": 24,
+    "title": "Mocking User Authentication States",
+    "body": "Simulate logged-in and logged-out states using mock tokens and session management in your fake API endpoints.",
+    "tags": ["authentication", "sessions", "mock"],
+    "category": "Authentication",
+    "createdAt": "2025-08-03T11:15:00Z"
+  },
+  {
+    "id": 81,
+    "userId": 29,
+    "title": "Using JSON Web Tokens (JWT) in Mock APIs",
+    "body": "Implement JWT token validation in your fake API to simulate secure routes and permission handling.",
+    "tags": ["jwt", "security", "1"],
+    "category": "Authentication",
+    "createdAt": "2025-08-03T13:30:00Z"
+  },
+  {
+    "id": 82,
+    "userId": 34,
+    "title": "Creating Complex Nested JSON Structures",
+    "body": "Learn how to design deeply nested objects and arrays in JSON for realistic fake API responses, including relationships and embedded documents.",
+    "tags": ["json", "nested", "data"],
+    "category": "Data Modeling",
+    "createdAt": "2025-08-03T15:45:00Z"
+  },
+  {
+    "id": 83,
+    "userId": 42,
+    "title": "Mocking User Permissions and Roles",
+    "body": "Simulate different user roles and access permissions in your fake API to test role-based features and authorization flows.",
+    "tags": ["roles", "permissions", "security"],
+    "category": "Authentication",
+    "createdAt": "2025-08-04T10:00:00Z"
+  },
+  {
+    "id": 84,
+    "userId": 30,
+    "title": "Handling File Uploads in Mock APIs",
+    "body": "While static JSON can’t accept uploads, we’ll discuss ways to simulate file upload success and error responses for frontend testing.",
+    "tags": ["uploads", "files", "mock"],
+    "category": "Features",
+    "createdAt": "2025-08-04T12:15:00Z"
+  },
+  {
+    "id": 85,
+    "userId": 11,
+    "title": "Internationalizing Dates and Numbers in APIs",
+    "body": "Format dates, currencies, and numbers based on locale to build truly global-ready fake APIs.",
+    "tags": ["i18n", "localization", "formatting"],
+    "category": "Features",
+    "createdAt": "2025-08-04T14:30:00Z"
+  },
+  {
+    "id": 86,
+    "userId": 43,
+    "title": "Using Environment Variables to Toggle Features",
+    "body": "Control which fake API features are enabled or disabled using environment variables in your deployment platform.",
+    "tags": ["env", "feature-toggle", "13"],
+    "category": "DevOps",
+    "createdAt": "2025-08-04T16:45:00Z"
+  },
+  {
+    "id": 87,
+    "userId": 25,
+    "title": "Mocking Cart and Checkout Workflows",
+    "body": "Build realistic shopping cart and checkout flows with stateful JSON data and order status updates.",
+    "tags": ["ecommerce", "cart", "checkout"],
+    "category": "E-commerce",
+    "createdAt": "2025-08-05T09:00:00Z"
+  },
+  {
+    "id": 88,
+    "userId": 36,
+    "title": "Testing API Failures with Randomized Errors",
+    "body": "Add randomness to error responses in your fake API to test how your frontend handles network and server failures.",
+    "tags": ["errors", "testing", "random"],
+    "category": "Testing",
+    "createdAt": "2025-08-05T11:15:00Z"
+  },
+  {
+    "id": 89,
+    "userId": 18,
+    "title": "Mocking Multi-User Collaboration Features",
+    "body": "Simulate comments, edits, and activity feeds to test collaborative apps using mock APIs.",
+    "tags": ["collaboration", "activity", "comments"],
+    "category": "Features",
+    "createdAt": "2025-08-05T13:30:00Z"
+  },
+  {
+    "id": 90,
+    "userId": 50,
+    "title": "Integrating Fake APIs with GraphQL Clients",
+    "body": "Use REST endpoints with GraphQL clients by simulating GraphQL-like queries and responses in your mock API.",
+    "tags": ["graphql", "integration", "1"],
+    "category": "API Design",
+    "createdAt": "2025-08-05T15:45:00Z"
+  },
+  {
+    "id": 91,
+    "userId": 16,
+    "title": "Using Webhooks in Mock APIs for Event Testing",
+    "body": "Simulate webhook calls for events like order updates or notifications to test event-driven frontend workflows.",
+    "tags": ["webhooks", "events", "testing"],
+    "category": "Features",
+    "createdAt": "2025-08-06T10:00:00Z"
+  },
+  {
+    "id": 92,
+    "userId": 21,
+    "title": "Performance Considerations for Large JSON APIs",
+    "body": "Optimize response size, caching, and data chunking for large mock datasets to ensure fast frontend loading times.",
+    "tags": ["performance", "optimization", "1"],
+    "category": "DevOps",
+    "createdAt": "2025-08-06T12:15:00Z"
+  },
+  {
+    "id": 93,
+    "userId": 33,
+    "title": "Using JSON Patch for Partial Updates",
+    "body": "Simulate PATCH requests using JSON Patch format for efficient partial updates in your fake API.",
+    "tags": ["jsonpatch", "patch", "updates"],
+    "category": "API Design",
+    "createdAt": "2025-08-06T14:30:00Z"
+  },
+  {
+    "id": 94,
+    "userId": 27,
+    "title": "Testing Offline Fallbacks with Service Workers",
+    "body": "Use mock APIs with service workers to simulate offline scenarios and cached content for progressive web apps.",
+    "tags": ["service-workers", "offline", "pwa"],
+    "category": "Frontend",
+    "createdAt": "2025-08-06T16:45:00Z"
+  },
+  {
+    "id": 95,
+    "userId": 12,
+    "title": "Simulating Email Confirmation Flows",
+    "body": "Test email verification and confirmation states with mock APIs returning token validation and resend options.",
+    "tags": ["email", "verification", "auth"],
+    "category": "Authentication",
+    "createdAt": "2025-08-07T09:00:00Z"
+  },
+  {
+    "id": 96,
+    "userId": 48,
+    "title": "Generating Consistent IDs Across Entities",
+    "body": "Maintain referential integrity by generating consistent, unique IDs across related JSON entities in your mock API.",
+    "tags": ["ids", "consistency", "data"],
+    "category": "Data Modeling",
+    "createdAt": "2025-08-07T11:15:00Z"
+  },
+  {
+    "id": 97,
+    "userId": 9,
+    "title": "Mocking Location-Based APIs",
+    "body": "Simulate geolocation data, maps, and nearby search results for apps requiring location-based features.",
+    "tags": ["location", "maps", "1"],
+    "category": "Features",
+    "createdAt": "2025-08-07T13:30:00Z"
+  },
+  {
+    "id": 98,
+    "userId": 19,
+    "title": "Creating Role-Based UI States with Fake APIs",
+    "body": "Mock APIs can help toggle UI components based on user roles or permissions for better frontend testing.",
+    "tags": ["roles", "ui", "mock"],
+    "category": "Frontend",
+    "createdAt": "2025-08-07T15:45:00Z"
+  },
+  {
+    "id": 99,
+    "userId": 6,
+    "title": "Simulating Multi-Currency Pricing",
+    "body": "Test internationalized e-commerce apps by mocking product prices in multiple currencies and formats.",
+    "tags": ["currency", "pricing", "ecommerce"],
+    "category": "E-commerce",
+    "createdAt": "2025-08-08T09:00:00Z"
+  },
+  {
+    "id": 100,
+    "userId": 35,
+    "title": "Building Feature Flags into Your Fake API",
+    "body": "Use feature flags to toggle new endpoints or data structures without redeploying your mock API.",
+    "tags": ["feature-flags", "1", "13"],
+    "category": "DevOps",
+    "createdAt": "2025-08-08T11:15:00Z"
+  }
+]

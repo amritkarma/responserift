@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "productId": 5,
+    "userId": 12,
+    "rating": 4,
+    "comment": "Great product, works as expected. Would recommend!",
+    "createdAt": "2025-07-20T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "productId": 8,
+    "userId": 25,
+    "rating": 5,
+    "comment": "Exceeded my expectations. High quality and easy to use.",
+    "createdAt": "2025-07-22T14:00:00Z"
+  },
+  {
+    "id": 3,
+    "productId": 13,
+    "userId": 7,
+    "rating": 3,
+    "comment": "Good for the price but there are some minor issues.",
+    "createdAt": "2025-07-23T09:45:00Z"
+  },
+  {
+    "id": 4,
+    "productId": 1,
+    "userId": 34,
+    "rating": 5,
+    "comment": "Absolutely love it! Will buy again.",
+    "createdAt": "2025-07-24T12:15:00Z"
+  },
+  {
+    "id": 5,
+    "productId": 6,
+    "userId": 19,
+    "rating": 2,
+    "comment": "Not as good as I expected, some features missing.",
+    "createdAt": "2025-07-25T11:00:00Z"
+  },
+  {
+    "id": 6,
+    "productId": 9,
+    "userId": 15,
+    "rating": 4,
+    "comment": "Works well, but delivery was a bit slow.",
+    "createdAt": "2025-07-26T10:20:00Z"
+  },
+  {
+    "id": 7,
+    "productId": 3,
+    "userId": 28,
+    "rating": 5,
+    "comment": "Highly recommend! Fantastic value.",
+    "createdAt": "2025-07-27T13:10:00Z"
+  },
+  {
+    "id": 8,
+    "productId": 4,
+    "userId": 22,
+    "rating": 3,
+    "comment": "Average quality, but does the job.",
+    "createdAt": "2025-07-28T15:45:00Z"
+  },
+  {
+    "id": 9,
+    "productId": 12,
+    "userId": 30,
+    "rating": 5,
+    "comment": "Fantastic product, very durable.",
+    "createdAt": "2025-07-29T09:30:00Z"
+  },
+  {
+    "id": 10,
+    "productId": 10,
+    "userId": 9,
+    "rating": 4,
+    "comment": "Good value for money, works as described.",
+    "createdAt": "2025-07-30T10:50:00Z"
+  },
+  {
+    "id": 11,
+    "productId": 15,
+    "userId": 21,
+    "rating": 5,
+    "comment": "Excellent design and performance.",
+    "createdAt": "2025-07-31T14:00:00Z"
+  },
+  {
+    "id": 12,
+    "productId": 18,
+    "userId": 6,
+    "rating": 4,
+    "comment": "Good product but packaging could be better.",
+    "createdAt": "2025-08-01T11:15:00Z"
+  },
+  {
+    "id": 13,
+    "productId": 20,
+    "userId": 11,
+    "rating": 3,
+    "comment": "Okay product, had some minor issues.",
+    "createdAt": "2025-08-02T10:00:00Z"
+  },
+  {
+    "id": 14,
+    "productId": 14,
+    "userId": 13,
+    "rating": 5,
+    "comment": "Love it! Great quality and easy to use.",
+    "createdAt": "2025-08-03T12:30:00Z"
+  },
+  {
+    "id": 15,
+    "productId": 7,
+    "userId": 17,
+    "rating": 4,
+    "comment": "Works well but a bit pricey.",
+    "createdAt": "2025-08-04T14:20:00Z"
+  },
+  {
+    "id": 16,
+    "productId": 2,
+    "userId": 26,
+    "rating": 3,
+    "comment": "Decent product but expected better features.",
+    "createdAt": "2025-08-05T09:50:00Z"
+  },
+  {
+    "id": 17,
+    "productId": 11,
+    "userId": 24,
+    "rating": 5,
+    "comment": "Highly satisfied, great customer support too.",
+    "createdAt": "2025-08-06T10:10:00Z"
+  },
+  {
+    "id": 18,
+    "productId": 16,
+    "userId": 8,
+    "rating": 4,
+    "comment": "Good product overall, would buy again.",
+    "createdAt": "2025-08-07T11:30:00Z"
+  },
+  {
+    "id": 19,
+    "productId": 19,
+    "userId": 29,
+    "rating": 2,
+    "comment": "Not satisfied, product quality could be improved.",
+    "createdAt": "2025-08-08T13:40:00Z"
+  },
+  {
+    "id": 20,
+    "productId": 17,
+    "userId": 31,
+    "rating": 5,
+    "comment": "Amazing product, highly recommend!",
+    "createdAt": "2025-08-09T12:00:00Z"
+  },
+  {
+    "id": 21,
+    "productId": 21,
+    "userId": 20,
+    "rating": 4,
+    "comment": "Good value and quality.",
+    "createdAt": "2025-08-10T14:30:00Z"
+  },
+  {
+    "id": 22,
+    "productId": 22,
+    "userId": 23,
+    "rating": 5,
+    "comment": "Excellent product, fast shipping.",
+    "createdAt": "2025-08-11T09:20:00Z"
+  },
+  {
+    "id": 23,
+    "productId": 23,
+    "userId": 27,
+    "rating": 3,
+    "comment": "Okay product but not what I expected.",
+    "createdAt": "2025-08-12T11:45:00Z"
+  },
+  {
+    "id": 24,
+    "productId": 24,
+    "userId": 35,
+    "rating": 4,
+    "comment": "Good overall, works as described.",
+    "createdAt": "2025-08-13T13:00:00Z"
+  },
+  {
+    "id": 25,
+    "productId": 25,
+    "userId": 33,
+    "rating": 5,
+    "comment": "High quality and durable product.",
+    "createdAt": "2025-08-14T10:50:00Z"
+  },
+  {
+    "id": 26,
+    "productId": 26,
+    "userId": 12,
+    "rating": 4,
+    "comment": "Good product, meets my needs.",
+    "createdAt": "2025-08-15T14:10:00Z"
+  },
+  {
+    "id": 27,
+    "productId": 27,
+    "userId": 14,
+    "rating": 3,
+    "comment": "Decent but could be better.",
+    "createdAt": "2025-08-16T12:30:00Z"
+  },
+  {
+    "id": 28,
+    "productId": 28,
+    "userId": 16,
+    "rating": 5,
+    "comment": "Love it! Great purchase.",
+    "createdAt": "2025-08-17T09:40:00Z"
+  },
+  {
+    "id": 29,
+    "productId": 29,
+    "userId": 18,
+    "rating": 4,
+    "comment": "Works well, happy with it.",
+    "createdAt": "2025-08-18T10:50:00Z"
+  },
+  {
+    "id": 30,
+    "productId": 30,
+    "userId": 20,
+    "rating": 3,
+    "comment": "Average product, nothing special.",
+    "createdAt": "2025-08-19T11:20:00Z"
+  },
+  {
+    "id": 31,
+    "productId": 31,
+    "userId": 22,
+    "rating": 5,
+    "comment": "Fantastic quality, very satisfied.",
+    "createdAt": "2025-08-20T14:45:00Z"
+  },
+  {
+    "id": 32,
+    "productId": 32,
+    "userId": 24,
+    "rating": 4,
+    "comment": "Good product, will recommend.",
+    "createdAt": "2025-08-21T09:10:00Z"
+  },
+  {
+    "id": 33,
+    "productId": 33,
+    "userId": 26,
+    "rating": 3,
+    "comment": "It's okay, could be improved.",
+    "createdAt": "2025-08-22T13:30:00Z"
+  },
+  {
+    "id": 34,
+    "productId": 34,
+    "userId": 28,
+    "rating": 5,
+    "comment": "Excellent product, works perfectly.",
+    "createdAt": "2025-08-23T11:15:00Z"
+  },
+  {
+    "id": 35,
+    "productId": 35,
+    "userId": 30,
+    "rating": 4,
+    "comment": "Happy with this purchase.",
+    "createdAt": "2025-08-24T12:40:00Z"
+  },
+  {
+    "id": 36,
+    "productId": 36,
+    "userId": 32,
+    "rating": 3,
+    "comment": "Decent product but some issues.",
+    "createdAt": "2025-08-25T14:00:00Z"
+  },
+  {
+    "id": 37,
+    "productId": 37,
+    "userId": 34,
+    "rating": 5,
+    "comment": "Great product, will buy again.",
+    "createdAt": "2025-08-26T10:20:00Z"
+  },
+  {
+    "id": 38,
+    "productId": 38,
+    "userId": 36,
+    "rating": 4,
+    "comment": "Good quality, satisfied.",
+    "createdAt": "2025-08-27T09:50:00Z"
+  },
+  {
+    "id": 39,
+    "productId": 39,
+    "userId": 38,
+    "rating": 3,
+    "comment": "Average product, not bad.",
+    "createdAt": "2025-08-28T13:10:00Z"
+  },
+  {
+    "id": 40,
+    "productId": 40,
+    "userId": 40,
+    "rating": 5,
+    "comment": "Highly recommend this product!",
+    "createdAt": "2025-08-29T15:30:00Z"
+  },
+  {
+    "id": 41,
+    "productId": 41,
+    "userId": 5,
+    "rating": 4,
+    "comment": "Solid product, met my expectations.",
+    "createdAt": "2025-08-30T10:15:00Z"
+  },
+  {
+    "id": 42,
+    "productId": 42,
+    "userId": 8,
+    "rating": 5,
+    "comment": "Fantastic! Quality is top-notch.",
+    "createdAt": "2025-08-31T11:20:00Z"
+  },
+  {
+    "id": 43,
+    "productId": 43,
+    "userId": 11,
+    "rating": 3,
+    "comment": "Good but there’s room for improvement.",
+    "createdAt": "2025-09-01T14:05:00Z"
+  },
+  {
+    "id": 44,
+    "productId": 44,
+    "userId": 14,
+    "rating": 4,
+    "comment": "Very useful, would recommend.",
+    "createdAt": "2025-09-02T09:30:00Z"
+  },
+  {
+    "id": 45,
+    "productId": 45,
+    "userId": 17,
+    "rating": 2,
+    "comment": "Not quite what I expected, disappointing.",
+    "createdAt": "2025-09-03T10:50:00Z"
+  },
+  {
+    "id": 46,
+    "productId": 46,
+    "userId": 20,
+    "rating": 5,
+    "comment": "Amazing quality and fast delivery!",
+    "createdAt": "2025-09-04T12:00:00Z"
+  },
+  {
+    "id": 47,
+    "productId": 47,
+    "userId": 23,
+    "rating": 4,
+    "comment": "Works great, I’m happy with my purchase.",
+    "createdAt": "2025-09-05T13:15:00Z"
+  },
+  {
+    "id": 48,
+    "productId": 48,
+    "userId": 26,
+    "rating": 3,
+    "comment": "Average product, nothing special.",
+    "createdAt": "2025-09-06T14:40:00Z"
+  },
+  {
+    "id": 49,
+    "productId": 49,
+    "userId": 29,
+    "rating": 5,
+    "comment": "Exceeded my expectations, highly recommend.",
+    "createdAt": "2025-09-07T10:10:00Z"
+  },
+  {
+    "id": 50,
+    "productId": 50,
+    "userId": 32,
+    "rating": 4,
+    "comment": "Good product, fair price.",
+    "createdAt": "2025-09-08T11:25:00Z"
+  },
+  {
+    "id": 51,
+    "productId": 1,
+    "userId": 35,
+    "rating": 3,
+    "comment": "It’s okay, met some but not all expectations.",
+    "createdAt": "2025-09-09T13:45:00Z"
+  },
+  {
+    "id": 52,
+    "productId": 2,
+    "userId": 38,
+    "rating": 5,
+    "comment": "Love this product, will buy again.",
+    "createdAt": "2025-09-10T15:00:00Z"
+  },
+  {
+    "id": 53,
+    "productId": 3,
+    "userId": 41,
+    "rating": 4,
+    "comment": "Very good quality and performance.",
+    "createdAt": "2025-09-11T10:20:00Z"
+  },
+  {
+    "id": 54,
+    "productId": 4,
+    "userId": 44,
+    "rating": 3,
+    "comment": "Average product but acceptable for the price.",
+    "createdAt": "2025-09-12T11:40:00Z"
+  },
+  {
+    "id": 55,
+    "productId": 5,
+    "userId": 47,
+    "rating": 5,
+    "comment": "Exceeded all expectations, love it!",
+    "createdAt": "2025-09-13T13:50:00Z"
+  },
+  {
+    "id": 56,
+    "productId": 6,
+    "userId": 50,
+    "rating": 4,
+    "comment": "Good quality and fast shipping.",
+    "createdAt": "2025-09-14T09:15:00Z"
+  },
+  {
+    "id": 57,
+    "productId": 7,
+    "userId": 53,
+    "rating": 3,
+    "comment": "It’s okay but could be improved.",
+    "createdAt": "2025-09-15T10:30:00Z"
+  },
+  {
+    "id": 58,
+    "productId": 8,
+    "userId": 56,
+    "rating": 5,
+    "comment": "Love the design and performance!",
+    "createdAt": "2025-09-16T12:00:00Z"
+  },
+  {
+    "id": 59,
+    "productId": 9,
+    "userId": 59,
+    "rating": 4,
+    "comment": "Good product, highly recommend.",
+    "createdAt": "2025-09-17T13:20:00Z"
+  },
+  {
+    "id": 60,
+    "productId": 10,
+    "userId": 60,
+    "rating": 3,
+    "comment": "Average product, works as expected.",
+    "createdAt": "2025-09-18T14:35:00Z"
+  },
+  {
+    "id": 61,
+    "productId": 11,
+    "userId": 55,
+    "rating": 5,
+    "comment": "Excellent product, will purchase again.",
+    "createdAt": "2025-09-19T10:50:00Z"
+  },
+  {
+    "id": 62,
+    "productId": 12,
+    "userId": 58,
+    "rating": 4,
+    "comment": "Good value for money.",
+    "createdAt": "2025-09-20T11:55:00Z"
+  },
+  {
+    "id": 63,
+    "productId": 13,
+    "userId": 51,
+    "rating": 3,
+    "comment": "Not bad, but could be better.",
+    "createdAt": "2025-09-21T13:00:00Z"
+  },
+  {
+    "id": 64,
+    "productId": 14,
+    "userId": 54,
+    "rating": 5,
+    "comment": "Love it! Great quality and features.",
+    "createdAt": "2025-09-22T14:10:00Z"
+  },
+  {
+    "id": 65,
+    "productId": 15,
+    "userId": 47,
+    "rating": 4,
+    "comment": "Very satisfied with this product.",
+    "createdAt": "2025-09-23T10:20:00Z"
+  },
+  {
+    "id": 66,
+    "productId": 16,
+    "userId": 40,
+    "rating": 3,
+    "comment": "It’s okay, meets basic needs.",
+    "createdAt": "2025-09-24T11:35:00Z"
+  },
+  {
+    "id": 67,
+    "productId": 17,
+    "userId": 43,
+    "rating": 5,
+    "comment": "Fantastic product, highly recommend.",
+    "createdAt": "2025-09-25T13:45:00Z"
+  },
+  {
+    "id": 68,
+    "productId": 18,
+    "userId": 46,
+    "rating": 4,
+    "comment": "Good product with excellent features.",
+    "createdAt": "2025-09-26T14:50:00Z"
+  },
+  {
+    "id": 69,
+    "productId": 19,
+    "userId": 49,
+    "rating": 3,
+    "comment": "Average quality, nothing special.",
+    "createdAt": "2025-09-27T10:05:00Z"
+  },
+  {
+    "id": 70,
+    "productId": 20,
+    "userId": 52,
+    "rating": 5,
+    "comment": "Highly recommend this product!",
+    "createdAt": "2025-09-28T11:15:00Z"
+  }
+]

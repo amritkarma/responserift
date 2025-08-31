@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Bluetooth Earbuds",
+    "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+    "price": 79.99,
+    "image": "https://picsum.photos/seed/product1/400/300",
+    "category": "Tech Gadgets",
+    "stock": 45
+  },
+  {
+    "id": 2,
+    "title": "Smart Home Security Camera",
+    "description": "1080p HD camera with night vision and two-way audio for your home security.",
+    "price": 120.50,
+    "image": "https://picsum.photos/seed/product2/400/300",
+    "category": "Home Appliances",
+    "stock": 32
+  },
+  {
+    "id": 3,
+    "title": "Electric Kettle 1.7L",
+    "description": "Fast boiling electric kettle with automatic shut-off and boil-dry protection.",
+    "price": 35.00,
+    "image": "https://picsum.photos/seed/product3/400/300",
+    "category": "Home Appliances",
+    "stock": 78
+  },
+  {
+    "id": 4,
+    "title": "Men's Running Shoes",
+    "description": "Lightweight and comfortable running shoes designed for all terrains.",
+    "price": 89.99,
+    "image": "https://picsum.photos/seed/product4/400/300",
+    "category": "Sports",
+    "stock": 25
+  },
+  {
+    "id": 5,
+    "title": "Stainless Steel Water Bottle",
+    "description": "Durable and insulated bottle keeping your drinks cold or hot for hours.",
+    "price": 22.50,
+    "image": "https://picsum.photos/seed/product5/400/300",
+    "category": "Sports",
+    "stock": 56
+  },
+  {
+    "id": 6,
+    "title": "4K UHD Smart TV 55 inch",
+    "description": "Ultra HD Smart TV with vibrant colors and streaming app support.",
+    "price": 599.99,
+    "image": "https://picsum.photos/seed/product6/400/300",
+    "category": "Tech Gadgets",
+    "stock": 12
+  },
+  {
+    "id": 7,
+    "title": "Organic Facial Cleanser",
+    "description": "Gentle cleanser with natural ingredients to refresh your skin.",
+    "price": 18.75,
+    "image": "https://picsum.photos/seed/product7/400/300",
+    "category": "Beauty",
+    "stock": 60
+  },
+  {
+    "id": 8,
+    "title": "Leather Wallet",
+    "description": "Premium leather wallet with multiple card slots and RFID protection.",
+    "price": 45.00,
+    "image": "https://picsum.photos/seed/product8/400/300",
+    "category": "Fashion",
+    "stock": 40
+  },
+  {
+    "id": 9,
+    "title": "Yoga Mat Non-Slip",
+    "description": "Eco-friendly yoga mat with cushioned support and anti-slip surface.",
+    "price": 30.99,
+    "image": "https://picsum.photos/seed/product9/400/300",
+    "category": "Sports",
+    "stock": 70
+  },
+  {
+    "id": 10,
+    "title": "Wireless Charger Pad",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+    "price": 29.95,
+    "image": "https://picsum.photos/seed/product10/400/300",
+    "category": "Tech Gadgets",
+    "stock": 50
+  },
+  {
+    "id": 11,
+    "title": "Men's Casual T-Shirt",
+    "description": "Soft cotton t-shirt available in multiple colors and sizes.",
+    "price": 15.99,
+    "image": "https://picsum.photos/seed/product11/400/300",
+    "category": "Fashion",
+    "stock": 100
+  },
+  {
+    "id": 12,
+    "title": "Espresso Coffee Maker",
+    "description": "Compact espresso machine with adjustable settings and easy cleaning.",
+    "price": 250.00,
+    "image": "https://picsum.photos/seed/product12/400/300",
+    "category": "Home Appliances",
+    "stock": 15
+  },
+  {
+    "id": 13,
+    "title": "Wireless Gaming Mouse",
+    "description": "Ergonomic mouse with programmable buttons and RGB lighting.",
+    "price": 49.99,
+    "image": "https://picsum.photos/seed/product13/400/300",
+    "category": "Tech Gadgets",
+    "stock": 38
+  },
+  {
+    "id": 14,
+    "title": "Classic Novel Collection",
+    "description": "Set of 5 classic novels with hardcover editions.",
+    "price": 65.00,
+    "image": "https://picsum.photos/seed/product14/400/300",
+    "category": "Books",
+    "stock": 20
+  },
+  {
+    "id": 15,
+    "title": "Silicone Baking Mat",
+    "description": "Reusable non-stick silicone mat perfect for baking and cooking.",
+    "price": 12.99,
+    "image": "https://picsum.photos/seed/product15/400/300",
+    "category": "Home Appliances",
+    "stock": 80
+  },
+  {
+    "id": 16,
+    "title": "Bluetooth Speaker",
+    "description": "Portable waterproof Bluetooth speaker with high-quality sound.",
+    "price": 55.49,
+    "image": "https://picsum.photos/seed/product16/400/300",
+    "category": "Tech Gadgets",
+    "stock": 65
+  },
+  {
+    "id": 17,
+    "title": "Women's Running Jacket",
+    "description": "Lightweight and breathable jacket designed for active wear.",
+    "price": 70.00,
+    "image": "https://picsum.photos/seed/product17/400/300",
+    "category": "Fashion",
+    "stock": 30
+  },
+  {
+    "id": 18,
+    "title": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+    "price": 45.99,
+    "image": "https://picsum.photos/seed/product18/400/300",
+    "category": "Beauty",
+    "stock": 55
+  },
+  {
+    "id": 19,
+    "title": "Adjustable Dumbbells Set",
+    "description": "Space-saving adjustable dumbbells for home fitness training.",
+    "price": 150.00,
+    "image": "https://picsum.photos/seed/product19/400/300",
+    "category": "Sports",
+    "stock": 22
+  },
+  {
+    "id": 20,
+    "title": "Noise Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation and long battery life.",
+    "price": 199.99,
+    "image": "https://picsum.photos/seed/product20/400/300",
+    "category": "Tech Gadgets",
+    "stock": 28
+  },
+  {
+    "id": 21,
+    "title": "Smart Fitness Tracker",
+    "description": "Water-resistant fitness tracker with heart rate monitoring and sleep tracking.",
+    "price": 99.95,
+    "image": "https://picsum.photos/seed/product21/400/300",
+    "category": "Tech Gadgets",
+    "stock": 44
+  },
+  {
+    "id": 22,
+    "title": "Cordless Vacuum Cleaner",
+    "description": "Lightweight and powerful cordless vacuum with multiple attachments.",
+    "price": 180.00,
+    "image": "https://picsum.photos/seed/product22/400/300",
+    "category": "Home Appliances",
+    "stock": 19
+  },
+  {
+    "id": 23,
+    "title": "Men's Leather Belt",
+    "description": "Genuine leather belt with classic buckle design, perfect for daily wear.",
+    "price": 25.00,
+    "image": "https://picsum.photos/seed/product23/400/300",
+    "category": "Fashion",
+    "stock": 54
+  },
+  {
+    "id": 24,
+    "title": "Stainless Steel Cookware Set",
+    "description": "10-piece cookware set with durable, non-reactive stainless steel.",
+    "price": 250.00,
+    "image": "https://picsum.photos/seed/product24/400/300",
+    "category": "Home Appliances",
+    "stock": 10
+  },
+  {
+    "id": 25,
+    "title": "Waterproof Hiking Backpack",
+    "description": "Lightweight backpack with multiple compartments and waterproof fabric.",
+    "price": 85.00,
+    "image": "https://picsum.photos/seed/product25/400/300",
+    "category": "Sports",
+    "stock": 33
+  },
+  {
+    "id": 26,
+    "title": "Wireless Keyboard and Mouse Combo",
+    "description": "Ergonomic wireless keyboard and mouse set with long battery life.",
+    "price": 49.99,
+    "image": "https://picsum.photos/seed/product26/400/300",
+    "category": "Tech Gadgets",
+    "stock": 58
+  },
+  {
+    "id": 27,
+    "title": "LED Desk Lamp",
+    "description": "Adjustable brightness desk lamp with USB charging port.",
+    "price": 29.95,
+    "image": "https://picsum.photos/seed/product27/400/300",
+    "category": "Home Appliances",
+    "stock": 40
+  },
+  {
+    "id": 28,
+    "title": "Women's Running Shoes",
+    "description": "Breathable running shoes designed for comfort and performance.",
+    "price": 95.00,
+    "image": "https://picsum.photos/seed/product28/400/300",
+    "category": "Sports",
+    "stock": 21
+  },
+  {
+    "id": 29,
+    "title": "Natural Lip Balm Set",
+    "description": "Organic lip balm pack with nourishing ingredients and natural scents.",
+    "price": 14.99,
+    "image": "https://picsum.photos/seed/product29/400/300",
+    "category": "Beauty",
+    "stock": 72
+  },
+  {
+    "id": 30,
+    "title": "Portable External Hard Drive 1TB",
+    "description": "Compact and fast external hard drive compatible with USB 3.0.",
+    "price": 64.99,
+    "image": "https://picsum.photos/seed/product30/400/300",
+    "category": "Tech Gadgets",
+    "stock": 38
+  },
+  {
+    "id": 31,
+    "title": "Classic Leather Jacket",
+    "description": "Stylish and durable leather jacket for men with a comfortable fit.",
+    "price": 220.00,
+    "image": "https://picsum.photos/seed/product31/400/300",
+    "category": "Fashion",
+    "stock": 15
+  },
+  {
+    "id": 32,
+    "title": "Kitchen Knife Set",
+    "description": "Professional 8-piece stainless steel knife set with ergonomic handles.",
+    "price": 75.50,
+    "image": "https://picsum.photos/seed/product32/400/300",
+    "category": "Home Appliances",
+    "stock": 27
+  },
+  {
+    "id": 33,
+    "title": "Bluetooth Noise Cancelling Earphones",
+    "description": "In-ear earphones with noise cancellation and clear sound quality.",
+    "price": 60.00,
+    "image": "https://picsum.photos/seed/product33/400/300",
+    "category": "Tech Gadgets",
+    "stock": 49
+  },
+  {
+    "id": 34,
+    "title": "Hardcover Mystery Novel",
+    "description": "Gripping mystery novel with a thrilling storyline, perfect for book lovers.",
+    "price": 19.99,
+    "image": "https://picsum.photos/seed/product34/400/300",
+    "category": "Books",
+    "stock": 45
+  },
+  {
+    "id": 35,
+    "title": "Silicone Cooking Utensil Set",
+    "description": "Heat-resistant, non-stick cooking utensils for everyday use.",
+    "price": 22.00,
+    "image": "https://picsum.photos/seed/product35/400/300",
+    "category": "Home Appliances",
+    "stock": 68
+  },
+  {
+    "id": 36,
+    "title": "Smartphone Tripod Stand",
+    "description": "Flexible tripod stand compatible with most smartphones and cameras.",
+    "price": 18.99,
+    "image": "https://picsum.photos/seed/product36/400/300",
+    "category": "Tech Gadgets",
+    "stock": 55
+  },
+  {
+    "id": 37,
+    "title": "Women's Winter Scarf",
+    "description": "Warm and soft scarf made of high-quality wool blend.",
+    "price": 27.50,
+    "image": "https://picsum.photos/seed/product37/400/300",
+    "category": "Fashion",
+    "stock": 43
+  },
+  {
+    "id": 38,
+    "title": "Electric Hair Straightener",
+    "description": "Professional hair straightener with adjustable temperature settings.",
+    "price": 40.00,
+    "image": "https://picsum.photos/seed/product38/400/300",
+    "category": "Beauty",
+    "stock": 38
+  },
+  {
+    "id": 39,
+    "title": "Adjustable Yoga Block",
+    "description": "Durable yoga block with adjustable height for better flexibility support.",
+    "price": 20.00,
+    "image": "https://picsum.photos/seed/product39/400/300",
+    "category": "Sports",
+    "stock": 50
+  },
+  {
+    "id": 40,
+    "title": "Over-Ear Wireless Headphones",
+    "description": "Comfortable over-ear headphones with deep bass and long battery life.",
+    "price": 150.00,
+    "image": "https://picsum.photos/seed/product40/400/300",
+    "category": "Tech Gadgets",
+    "stock": 20
+  },
+  {
+    "id": 41,
+    "title": "Men's Waterproof Watch",
+    "description": "Durable watch with water resistance up to 100 meters and sleek design.",
+    "price": 130.00,
+    "image": "https://picsum.photos/seed/product41/400/300",
+    "category": "Fashion",
+    "stock": 25
+  },
+  {
+    "id": 42,
+    "title": "Electric Pressure Cooker",
+    "description": "Multi-functional electric pressure cooker with programmable settings.",
+    "price": 110.99,
+    "image": "https://picsum.photos/seed/product42/400/300",
+    "category": "Home Appliances",
+    "stock": 17
+  },
+  {
+    "id": 43,
+    "title": "Wireless Charging Power Bank",
+    "description": "Portable power bank with wireless charging and fast USB output.",
+    "price": 45.00,
+    "image": "https://picsum.photos/seed/product43/400/300",
+    "category": "Tech Gadgets",
+    "stock": 60
+  },
+  {
+    "id": 44,
+    "title": "Kids' Educational Tablet",
+    "description": "Durable tablet with preloaded educational games and parental controls.",
+    "price": 89.99,
+    "image": "https://picsum.photos/seed/product44/400/300",
+    "category": "Tech Gadgets",
+    "stock": 30
+  },
+  {
+    "id": 45,
+    "title": "Women's Casual Sneakers",
+    "description": "Comfortable and stylish sneakers suitable for daily wear.",
+    "price": 59.95,
+    "image": "https://picsum.photos/seed/product45/400/300",
+    "category": "Fashion",
+    "stock": 45
+  },
+  {
+    "id": 46,
+    "title": "Ceramic Coffee Mug Set",
+    "description": "Set of 4 ceramic mugs with unique hand-painted designs.",
+    "price": 35.50,
+    "image": "https://picsum.photos/seed/product46/400/300",
+    "category": "Home Appliances",
+    "stock": 55
+  },
+  {
+    "id": 47,
+    "title": "Sports Water Bottle with Straw",
+    "description": "Leak-proof sports water bottle with built-in straw and carry handle.",
+    "price": 19.99,
+    "image": "https://picsum.photos/seed/product47/400/300",
+    "category": "Sports",
+    "stock": 80
+  },
+  {
+    "id": 48,
+    "title": "Bluetooth Smartwatch",
+    "description": "Smartwatch with fitness tracking, notifications, and customizable watch faces.",
+    "price": 120.00,
+    "image": "https://picsum.photos/seed/product48/400/300",
+    "category": "Tech Gadgets",
+    "stock": 28
+  },
+  {
+    "id": 49,
+    "title": "Organic Shampoo and Conditioner",
+    "description": "Set of natural shampoo and conditioner with no sulfates or parabens.",
+    "price": 24.99,
+    "image": "https://picsum.photos/seed/product49/400/300",
+    "category": "Beauty",
+    "stock": 75
+  },
+  {
+    "id": 50,
+    "title": "Hardcover Cookbook",
+    "description": "Recipe book featuring healthy and easy-to-make meals.",
+    "price": 22.00,
+    "image": "https://picsum.photos/seed/product50/400/300",
+    "category": "Books",
+    "stock": 40
+  },
+  {
+    "id": 51,
+    "title": "Adjustable Standing Desk",
+    "description": "Ergonomic standing desk with adjustable height for home office use.",
+    "price": 300.00,
+    "image": "https://picsum.photos/seed/product51/400/300",
+    "category": "Home Appliances",
+    "stock": 12
+  },
+  {
+    "id": 52,
+    "title": "Men's Wool Socks Pack",
+    "description": "Pack of 5 warm wool socks for cold weather.",
+    "price": 29.99,
+    "image": "https://picsum.photos/seed/product52/400/300",
+    "category": "Fashion",
+    "stock": 60
+  },
+  {
+    "id": 53,
+    "title": "Electric Grill",
+    "description": "Indoor electric grill with non-stick surface and adjustable temperature.",
+    "price": 95.00,
+    "image": "https://picsum.photos/seed/product53/400/300",
+    "category": "Home Appliances",
+    "stock": 18
+  },
+  {
+    "id": 54,
+    "title": "Wireless Earbuds Charging Case",
+    "description": "Replacement charging case compatible with most wireless earbuds.",
+    "price": 25.99,
+    "image": "https://picsum.photos/seed/product54/400/300",
+    "category": "Tech Gadgets",
+    "stock": 42
+  },
+  {
+    "id": 55,
+    "title": "Novelty Graphic T-Shirt",
+    "description": "Cotton t-shirt with trendy graphic prints available in various sizes.",
+    "price": 18.50,
+    "image": "https://picsum.photos/seed/product55/400/300",
+    "category": "Fashion",
+    "stock": 70
+  },
+  {
+    "id": 56,
+    "title": "Yoga Wheel",
+    "description": "Durable yoga wheel to assist with stretches and improve flexibility.",
+    "price": 35.00,
+    "image": "https://picsum.photos/seed/product56/400/300",
+    "category": "Sports",
+    "stock": 27
+  },
+  {
+    "id": 57,
+    "title": "Facial Moisturizer with SPF",
+    "description": "Lightweight moisturizer with SPF 30 for daily sun protection.",
+    "price": 27.00,
+    "image": "https://picsum.photos/seed/product57/400/300",
+    "category": "Beauty",
+    "stock": 50
+  },
+  {
+    "id": 58,
+    "title": "Kids' Building Blocks Set",
+    "description": "Creative play blocks set for children aged 3+ with colorful pieces.",
+    "price": 40.00,
+    "image": "https://picsum.photos/seed/product58/400/300",
+    "category": "Toys",
+    "stock": 65
+  },
+  {
+    "id": 59,
+    "title": "Corded Hair Dryer",
+    "description": "Powerful hair dryer with multiple heat and speed settings.",
+    "price": 35.99,
+    "image": "https://picsum.photos/seed/product59/400/300",
+    "category": "Beauty",
+    "stock": 43
+  },
+  {
+    "id": 60,
+    "title": "Gaming Keyboard RGB",
+    "description": "Mechanical gaming keyboard with customizable RGB backlighting.",
+    "price": 80.00,
+    "image": "https://picsum.photos/seed/product60/400/300",
+    "category": "Tech Gadgets",
+    "stock": 33
+  },
+  {
+    "id": 61,
+    "title": "Compact Digital Camera",
+    "description": "12MP compact camera with optical zoom and image stabilization.",
+    "price": 199.99,
+    "image": "https://picsum.photos/seed/product61/400/300",
+    "category": "Tech Gadgets",
+    "stock": 22
+  },
+  {
+    "id": 62,
+    "title": "Men’s Running Shorts",
+    "description": "Lightweight and breathable shorts designed for high performance.",
+    "price": 30.00,
+    "image": "https://picsum.photos/seed/product62/400/300",
+    "category": "Fashion",
+    "stock": 48
+  },
+  {
+    "id": 63,
+    "title": "Smart Home Security Camera",
+    "description": "Wi-Fi enabled security camera with night vision and motion alerts.",
+    "price": 99.99,
+    "image": "https://picsum.photos/seed/product63/400/300",
+    "category": "Tech Gadgets",
+    "stock": 35
+  },
+  {
+    "id": 64,
+    "title": "Non-Stick Frying Pan",
+    "description": "12-inch non-stick frying pan with heat-resistant handle.",
+    "price": 27.50,
+    "image": "https://picsum.photos/seed/product64/400/300",
+    "category": "Home Appliances",
+    "stock": 40
+  },
+  {
+    "id": 65,
+    "title": "Women's Wool Coat",
+    "description": "Elegant wool blend coat perfect for cold winter days.",
+    "price": 180.00,
+    "image": "https://picsum.photos/seed/product65/400/300",
+    "category": "Fashion",
+    "stock": 16
+  },
+  {
+    "id": 66,
+    "title": "Wireless Bluetooth Speaker",
+    "description": "Portable speaker with rich sound and long battery life.",
+    "price": 70.00,
+    "image": "https://picsum.photos/seed/product66/400/300",
+    "category": "Tech Gadgets",
+    "stock": 38
+  },
+  {
+    "id": 67,
+    "title": "Set of 4 Ceramic Plates",
+    "description": "Durable and stylish plates for everyday dining.",
+    "price": 45.00,
+    "image": "https://picsum.photos/seed/product67/400/300",
+    "category": "Home Appliances",
+    "stock": 54
+  },
+  {
+    "id": 68,
+    "title": "Men’s Leather Wallet",
+    "description": "Slim wallet made from premium leather with multiple card slots.",
+    "price": 40.00,
+    "image": "https://picsum.photos/seed/product68/400/300",
+    "category": "Fashion",
+    "stock": 22
+  },
+  {
+    "id": 69,
+    "title": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush with multiple cleaning modes.",
+    "price": 55.00,
+    "image": "https://picsum.photos/seed/product69/400/300",
+    "category": "Beauty",
+    "stock": 37
+  },
+  {
+    "id": 70,
+    "title": "Kids’ Puzzle Game",
+    "description": "Educational puzzle game to boost problem-solving skills.",
+    "price": 18.00,
+    "image": "https://picsum.photos/seed/product70/400/300",
+    "category": "Toys",
+    "stock": 60
+  },
+  {
+    "id": 71,
+    "title": "Stainless Steel Water Bottle",
+    "description": "Insulated water bottle keeping drinks cold for 24 hours.",
+    "price": 25.00,
+    "image": "https://picsum.photos/seed/product71/400/300",
+    "category": "Sports",
+    "stock": 75
+  },
+  {
+    "id": 72,
+    "title": "Women’s Sunglasses",
+    "description": "UV protection sunglasses with modern frame design.",
+    "price": 45.99,
+    "image": "https://picsum.photos/seed/product72/400/300",
+    "category": "Fashion",
+    "stock": 29
+  },
+  {
+    "id": 73,
+    "title": "Hair Dryer Diffuser Attachment",
+    "description": "Diffuser for hair dryer to enhance natural curls and volume.",
+    "price": 15.99,
+    "image": "https://picsum.photos/seed/product73/400/300",
+    "category": "Beauty",
+    "stock": 34
+  },
+  {
+    "id": 74,
+    "title": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI settings.",
+    "price": 28.00,
+    "image": "https://picsum.photos/seed/product74/400/300",
+    "category": "Tech Gadgets",
+    "stock": 50
+  },
+  {
+    "id": 75,
+    "title": "Adjustable Dumbbells Set",
+    "description": "Space-saving adjustable dumbbells for strength training.",
+    "price": 150.00,
+    "image": "https://picsum.photos/seed/product75/400/300",
+    "category": "Sports",
+    "stock": 13
+  },
+  {
+    "id": 76,
+    "title": "Electric Kettle",
+    "description": "1.7L electric kettle with auto shut-off and boil dry protection.",
+    "price": 35.50,
+    "image": "https://picsum.photos/seed/product76/400/300",
+    "category": "Home Appliances",
+    "stock": 48
+  },
+  {
+    "id": 77,
+    "title": "Camping Tent for 4",
+    "description": "Lightweight camping tent suitable for 4 people, easy setup.",
+    "price": 120.00,
+    "image": "https://picsum.photos/seed/product77/400/300",
+    "category": "Sports",
+    "stock": 21
+  },
+  {
+    "id": 78,
+    "title": "Men’s Running Watch",
+    "description": "GPS running watch with heart rate monitor and activity tracking.",
+    "price": 140.00,
+    "image": "https://picsum.photos/seed/product78/400/300",
+    "category": "Tech Gadgets",
+    "stock": 26
+  },
+  {
+    "id": 79,
+    "title": "Women's Leather Handbag",
+    "description": "Elegant leather handbag with multiple compartments and adjustable strap.",
+    "price": 180.00,
+    "image": "https://picsum.photos/seed/product79/400/300",
+    "category": "Fashion",
+    "stock": 20
+  },
+  {
+    "id": 80,
+    "title": "Children's Art Set",
+    "description": "Complete art supplies kit for kids including paints, brushes, and paper.",
+    "price": 50.00,
+    "image": "https://picsum.photos/seed/product80/400/300",
+    "category": "Toys",
+    "stock": 55
+  },
+  {
+    "id": 81,
+    "title": "Wireless Gaming Headset",
+    "description": "Comfortable headset with surround sound and noise-canceling mic.",
+    "price": 95.00,
+    "image": "https://picsum.photos/seed/product81/400/300",
+    "category": "Tech Gadgets",
+    "stock": 29
+  },
+  {
+    "id": 82,
+    "title": "Men’s Waterproof Hiking Boots",
+    "description": "Durable boots designed for all-terrain hiking and water resistance.",
+    "price": 130.00,
+    "image": "https://picsum.photos/seed/product82/400/300",
+    "category": "Fashion",
+    "stock": 18
+  },
+  {
+    "id": 83,
+    "title": "Smart LED Desk Lamp",
+    "description": "LED lamp with adjustable brightness and color temperature control.",
+    "price": 60.00,
+    "image": "https://picsum.photos/seed/product83/400/300",
+    "category": "Home Appliances",
+    "stock": 35
+  },
+  {
+    "id": 84,
+    "title": "Organic Face Serum",
+    "description": "Hydrating serum made with natural ingredients for glowing skin.",
+    "price": 40.00,
+    "image": "https://picsum.photos/seed/product84/400/300",
+    "category": "Beauty",
+    "stock": 50
+  },
+  {
+    "id": 85,
+    "title": "Children’s Science Kit",
+    "description": "Educational kit with fun experiments to spark curiosity.",
+    "price": 45.00,
+    "image": "https://picsum.photos/seed/product85/400/300",
+    "category": "Toys",
+    "stock": 60
+  },
+  {
+    "id": 86,
+    "title": "Bluetooth Fitness Tracker",
+    "description": "Waterproof tracker with heart rate and sleep monitoring.",
+    "price": 55.00,
+    "image": "https://picsum.photos/seed/product86/400/300",
+    "category": "Tech Gadgets",
+    "stock": 45
+  },
+  {
+    "id": 87,
+    "title": "Men’s Casual Shirt",
+    "description": "Breathable cotton shirt suitable for casual and office wear.",
+    "price": 35.00,
+    "image": "https://picsum.photos/seed/product87/400/300",
+    "category": "Fashion",
+    "stock": 40
+  },
+  {
+    "id": 88,
+    "title": "Electric Heated Blanket",
+    "description": "Soft and warm blanket with adjustable heat settings.",
+    "price": 80.00,
+    "image": "https://picsum.photos/seed/product88/400/300",
+    "category": "Home Appliances",
+    "stock": 22
+  },
+  {
+    "id": 89,
+    "title": "Professional Hair Straightener",
+    "description": "Ceramic plates for smooth and shiny hair styling.",
+    "price": 45.00,
+    "image": "https://picsum.photos/seed/product89/400/300",
+    "category": "Beauty",
+    "stock": 36
+  },
+  {
+    "id": 90,
+    "title": "Kids’ Outdoor Play Tent",
+    "description": "Easy-to-assemble tent for backyard fun and playtime.",
+    "price": 50.00,
+    "image": "https://picsum.photos/seed/product90/400/300",
+    "category": "Toys",
+    "stock": 50
+  },
+  {
+    "id": 91,
+    "title": "Stainless Steel Cookware Set",
+    "description": "10-piece cookware set with pots, pans, and lids.",
+    "price": 180.00,
+    "image": "https://picsum.photos/seed/product91/400/300",
+    "category": "Home Appliances",
+    "stock": 15
+  },
+  {
+    "id": 92,
+    "title": "Men’s Leather Belt",
+    "description": "Classic leather belt with adjustable buckle.",
+    "price": 25.00,
+    "image": "https://picsum.photos/seed/product92/400/300",
+    "category": "Fashion",
+    "stock": 55
+  },
+  {
+    "id": 93,
+    "title": "Wireless Charging Pad",
+    "description": "Fast wireless charging pad compatible with multiple devices.",
+    "price": 29.99,
+    "image": "https://picsum.photos/seed/product93/400/300",
+    "category": "Tech Gadgets",
+    "stock": 48
+  },
+  {
+    "id": 94,
+    "title": "Women’s Running Shoes",
+    "description": "Lightweight shoes with excellent cushioning and support.",
+    "price": 85.00,
+    "image": "https://picsum.photos/seed/product94/400/300",
+    "category": "Fashion",
+    "stock": 27
+  },
+  {
+    "id": 95,
+    "title": "Aromatherapy Essential Oils Set",
+    "description": "Set of 6 pure essential oils for relaxation and wellness.",
+    "price": 30.00,
+    "image": "https://picsum.photos/seed/product95/400/300",
+    "category": "Beauty",
+    "stock": 42
+  },
+  {
+    "id": 96,
+    "title": "Adjustable Laptop Stand",
+    "description": "Portable stand with adjustable angles for ergonomic typing.",
+    "price": 40.00,
+    "image": "https://picsum.photos/seed/product96/400/300",
+    "category": "Tech Gadgets",
+    "stock": 33
+  },
+  {
+    "id": 97,
+    "title": "Camping Sleeping Bag",
+    "description": "Lightweight sleeping bag suitable for 3-season camping.",
+    "price": 65.00,
+    "image": "https://picsum.photos/seed/product97/400/300",
+    "category": "Sports",
+    "stock": 18
+  },
+  {
+    "id": 98,
+    "title": "Children’s Bicycle Helmet",
+    "description": "Safety helmet with adjustable straps and bright colors.",
+    "price": 35.00,
+    "image": "https://picsum.photos/seed/product98/400/300",
+    "category": "Sports",
+    "stock": 50
+  },
+  {
+    "id": 99,
+    "title": "Smart Thermostat",
+    "description": "Wi-Fi enabled thermostat for home energy management.",
+    "price": 150.00,
+    "image": "https://picsum.photos/seed/product99/400/300",
+    "category": "Home Appliances",
+    "stock": 20
+  },
+  {
+    "id": 100,
+    "title": "Portable Projector",
+    "description": "Compact projector with HD resolution and HDMI input.",
+    "price": 200.00,
+    "image": "https://picsum.photos/seed/product100/400/300",
+    "category": "Tech Gadgets",
+    "stock": 15
+  }
+]

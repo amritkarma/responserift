@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Technology",
+    "description": "Gadgets, software, and electronics to power your life."
+  },
+  {
+    "id": 2,
+    "name": "Home & Living",
+    "description": "Appliances, furniture, and essentials for your home."
+  },
+  {
+    "id": 3,
+    "name": "Books & Media",
+    "description": "Books, magazines, and digital content for every reader."
+  },
+  {
+    "id": 4,
+    "name": "Fashion",
+    "description": "Clothing, accessories, and style for all seasons."
+  },
+  {
+    "id": 5,
+    "name": "Sports & Outdoors",
+    "description": "Equipment, gear, and apparel for an active lifestyle."
+  },
+  {
+    "id": 6,
+    "name": "Beauty & Personal Care",
+    "description": "Skincare, cosmetics, and wellness products."
+  },
+  {
+    "id": 7,
+    "name": "Automotive",
+    "description": "Car parts, accessories, and automotive care products."
+  },
+  {
+    "id": 8,
+    "name": "Toys & Games",
+    "description": "Fun and educational toys for kids of all ages."
+  },
+  {
+    "id": 9,
+    "name": "Health & Fitness",
+    "description": "Supplements, fitness gear, and health monitoring tools."
+  },
+  {
+    "id": 10,
+    "name": "Food & Beverages",
+    "description": "Gourmet, organic, and everyday food and drink products."
+  }
+]
