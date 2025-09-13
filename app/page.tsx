@@ -19,13 +19,13 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto text-center">
           <div className="mt-6 md:mt-0 inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium shadow-lg backdrop-blur-sm bg-white/80 border border-zinc-200 text-zinc-600 dark:bg-zinc-900/80 dark:border-zinc-700/50 dark:text-zinc-300">
             <span className="w-2 h-2 bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-full animate-pulse" />
-            <span>🌐 Open Source JSON API • Built with Next.js</span>
+            <span>🌐 Open Source REST API • Built with Next.js</span>
           </div>
 
           <h1 className="mt-8 text-5xl sm:text-6xl lg:text-7xl font-bold bg-clip-text text-transparent leading-tight bg-gradient-to-r from-zinc-900 via-zinc-700 to-zinc-500 dark:from-white dark:via-zinc-200 dark:to-zinc-400">
             ResponseRift
             <span className="block text-4xl sm:text-5xl lg:text-6xl text-zinc-500 dark:text-zinc-400 font-normal mt-2">
-              Instant JSON API Platform
+              Instant REST API Platform
             </span>
           </h1>
 

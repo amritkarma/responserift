@@ -10,11 +10,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "ResponseRift • Instant JSON API for Developers",
+    default: "ResponseRift • Instant REST API for Developers",
     template: "%s | ResponseRift",
   },
   description:
-    "ResponseRift is an open-source Instant JSON API platform: 12+ resources with full CRUD, filtering, pagination — built with Next.js. Perfect for prototyping and learning.",
+    "ResponseRift is an open-source Instant REST API platform: 12+ resources with full CRUD, filtering, pagination — built with Next.js. Perfect for prototyping and learning.",
 };
 
 export default async function RootLayout({

@@ -1,4 +1,4 @@
-## ResponseRift - Next.js JSON API
+## ResponseRift - Next.js REST API
 
 A comprehensive mock REST API built with Next.js App Router. ResponseRift serves realistic resources from JSON files and supports filtering, pagination, nested routes, and in-memory mutations (non-persistent). Perfect for frontend prototyping, demos, and API testing.
 

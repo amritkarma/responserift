@@ -389,7 +389,7 @@
   {
     "id": 44,
     "userId": 46,
-    "title": "Mocking Webhooks in JSON APIs",
+    "title": "Mocking Webhooks in REST APIs",
     "body": "Want to simulate webhook behavior? We’ll show you how to set up POST endpoints that return example payloads or mimic real-time data pushes.",
     "tags": ["webhooks", "mock", "json"],
     "category": "Integration",
@@ -686,7 +686,7 @@
   {
     "id": 77,
     "userId": 37,
-    "title": "Version Control Best Practices for JSON API Data",
+    "title": "Version Control Best Practices for REST API Data",
     "body": "Keep your fake API data consistent and traceable by managing JSON files in Git. This post covers branching, pull requests, and resolving merge conflicts.",
     "tags": ["version-control", "git", "data"],
     "category": "DevOps",
@@ -821,7 +821,7 @@
   {
     "id": 92,
     "userId": 21,
-    "title": "Performance Considerations for Large JSON APIs",
+    "title": "Performance Considerations for Large REST APIs",
     "body": "Optimize response size, caching, and data chunking for large mock datasets to ensure fast frontend loading times.",
     "tags": ["performance", "optimization", "1"],
     "category": "DevOps",

@@ -30,7 +30,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-black/70 dark:text-white/70 max-w-md">
-              Open-source JSON API generator for frontend development. Instantly
+              Open-source REST API generator for frontend development. Instantly
               mock real-world APIs and speed up your prototyping workflow.
             </p>
           </div>
@@ -102,7 +102,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-black/10 dark:border-white/15">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-sm text-black/60 dark:text-white/60">
-              © {year ?? ""} ResponseRift. Open-source JSON API tool.
+              © {year ?? ""} ResponseRift. Open-source REST API tool.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <Link
