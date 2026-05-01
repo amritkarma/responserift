@@ -9,7 +9,7 @@ type Todo = {
   completed: boolean;
 };
 
-// In-memory copy for mutations
+
 const todos: Todo[] = [...todosData];
 
 // Helper function to add CORS headers

@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 import usersData from '../../data/users.json'
 
-const users = [...usersData] // in-memory copy for mutation
+const users = [...usersData]
 
 // 🔁 Reusable CORS function
 function withCORS(response: NextResponse) {
@@ -22,7 +22,7 @@ function prettyJSON(data: unknown, status = 200) {
   return withCORS(res)
 }
 
-// 🔁 OPTIONS handler for preflight requests
+// OPTIONS handler for preflight requests
 export async function OPTIONS() {
   const response = new NextResponse(null, { status: 204 })
   return withCORS(response)
