@@ -1,790 +1,2822 @@
 [
   {
     "id": 1,
-    "name": "Alice Johnson",
+    "userId": 1,
+    "displayName": "Alice Johnson",
     "username": "alicej",
-    "email": "alice.johnson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=1",
-    "phone": "+1-202-555-0101",
-    "website": "https://alicejohnson.dev",
-    "address": {
-      "street": "123 Maple St",
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Alice Johnson builds practical software tools from Springfield, with a focus on API design and reliable developer workflows.",
+    "location": {
       "city": "Springfield",
-      "zipcode": "62704"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Engineering",
+      "experienceYears": 2,
+      "availableForHire": true
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://alicejohnson.dev",
+      "github": "https://github.com/alicej",
+      "linkedin": "https://www.linkedin.com/in/alicej",
+      "twitter": "https://x.com/alicej"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 0,
+      "todosCount": 10,
+      "albumsCount": 5,
+      "reputation": 100
+    },
+    "createdAt": "2025-01-02T09:00:00.000Z",
+    "updatedAt": "2026-04-02T10:30:00.000Z"
   },
   {
     "id": 2,
-    "name": "Bob Smith",
+    "userId": 2,
+    "displayName": "Bob Smith",
     "username": "bobsmith",
-    "email": "bob.smith@example.com",
     "avatar": "https://i.pravatar.cc/150?img=2",
-    "phone": "+1-202-555-0202",
-    "website": "https://bobsmith.io",
-    "address": {
-      "street": "456 Oak Ave",
+    "headline": "Backend Developer at MockForge",
+    "bio": "Bob Smith builds practical software tools from Riverside, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
       "city": "Riverside",
-      "zipcode": "92501"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Product",
+      "experienceYears": 3,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://bobsmith.io",
+      "github": "https://github.com/bobsmith",
+      "linkedin": "https://www.linkedin.com/in/bobsmith",
+      "twitter": "https://x.com/bobsmith"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 0,
+      "todosCount": 10,
+      "albumsCount": 5,
+      "reputation": 117
+    },
+    "createdAt": "2025-01-03T10:00:00.000Z",
+    "updatedAt": "2026-04-03T11:30:00.000Z"
   },
   {
     "id": 3,
-    "name": "Carol Martinez",
+    "userId": 3,
+    "displayName": "Carol Martinez",
     "username": "carolm",
-    "email": "carol.martinez@example.com",
     "avatar": "https://i.pravatar.cc/150?img=3",
-    "phone": "+1-202-555-0303",
-    "website": "https://carolm.dev",
-    "address": {
-      "street": "789 Pine Rd",
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Carol Martinez builds practical software tools from Greenville, with a focus on mock data and reliable developer workflows.",
+    "location": {
       "city": "Greenville",
-      "zipcode": "29601"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Platform",
+      "experienceYears": 4,
+      "availableForHire": false
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://carolm.dev",
+      "github": "https://github.com/carolm",
+      "linkedin": "https://www.linkedin.com/in/carolm",
+      "twitter": "https://x.com/carolm"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 0,
+      "todosCount": 10,
+      "albumsCount": 5,
+      "reputation": 134
+    },
+    "createdAt": "2025-01-04T11:00:00.000Z",
+    "updatedAt": "2026-04-04T12:30:00.000Z"
   },
   {
     "id": 4,
-    "name": "David Lee",
+    "userId": 4,
+    "displayName": "David Lee",
     "username": "davidlee",
-    "email": "david.lee@example.com",
     "avatar": "https://i.pravatar.cc/150?img=4",
-    "phone": "+1-202-555-0404",
-    "website": "https://davidlee.dev",
-    "address": {
-      "street": "101 Elm St",
+    "headline": "API Engineer at APIStudio",
+    "bio": "David Lee builds practical software tools from Fairview, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
       "city": "Fairview",
-      "zipcode": "37062"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Engineering",
+      "experienceYears": 5,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://davidlee.dev",
+      "github": "https://github.com/davidlee",
+      "linkedin": "https://www.linkedin.com/in/davidlee",
+      "twitter": "https://x.com/davidlee"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 0,
+      "todosCount": 10,
+      "albumsCount": 5,
+      "reputation": 151
+    },
+    "createdAt": "2025-01-05T12:00:00.000Z",
+    "updatedAt": "2026-04-05T13:30:00.000Z"
   },
   {
     "id": 5,
-    "name": "Eva Brown",
+    "userId": 5,
+    "displayName": "Eva Brown",
     "username": "evab",
-    "email": "eva.brown@example.com",
     "avatar": "https://i.pravatar.cc/150?img=5",
-    "phone": "+1-202-555-0505",
-    "website": "https://evabrown.io",
-    "address": {
-      "street": "202 Birch Blvd",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Eva Brown builds practical software tools from Madison, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Madison",
-      "zipcode": "53703"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Product",
+      "experienceYears": 6,
+      "availableForHire": true
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://evabrown.io",
+      "github": "https://github.com/evab",
+      "linkedin": "https://www.linkedin.com/in/evab",
+      "twitter": "https://x.com/evab"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 1,
+      "todosCount": 10,
+      "albumsCount": 5,
+      "reputation": 168
+    },
+    "createdAt": "2025-01-06T13:00:00.000Z",
+    "updatedAt": "2026-04-06T14:30:00.000Z"
   },
   {
     "id": 6,
-    "name": "Frank Wilson",
+    "userId": 6,
+    "displayName": "Frank Wilson",
     "username": "frankw",
-    "email": "frank.wilson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=6",
-    "phone": "+1-202-555-0606",
-    "website": "https://frankwilson.io",
-    "address": {
-      "street": "12 Cedar St",
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Frank Wilson builds practical software tools from Nashville, with a focus on automation and reliable developer workflows.",
+    "location": {
       "city": "Nashville",
-      "zipcode": "37203"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Platform",
+      "experienceYears": 7,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://frankwilson.io",
+      "github": "https://github.com/frankw",
+      "linkedin": "https://www.linkedin.com/in/frankw",
+      "twitter": "https://x.com/frankw"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 4,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 5,
+      "reputation": 185
+    },
+    "createdAt": "2025-01-07T14:00:00.000Z",
+    "updatedAt": "2026-04-07T15:30:00.000Z"
   },
   {
     "id": 7,
-    "name": "Grace Harris",
+    "userId": 7,
+    "displayName": "Grace Harris",
     "username": "graceh",
-    "email": "grace.harris@example.com",
     "avatar": "https://i.pravatar.cc/150?img=7",
-    "phone": "+1-202-555-0707",
-    "website": "https://graceharris.dev",
-    "address": {
-      "street": "99 Walnut Rd",
+    "headline": "Product Designer at DataBridge",
+    "bio": "Grace Harris builds practical software tools from Portland, with a focus on open source and reliable developer workflows.",
+    "location": {
       "city": "Portland",
-      "zipcode": "97205"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Engineering",
+      "experienceYears": 8,
+      "availableForHire": false
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://graceharris.dev",
+      "github": "https://github.com/graceh",
+      "linkedin": "https://www.linkedin.com/in/graceh",
+      "twitter": "https://x.com/graceh"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 5,
+      "reputation": 202
+    },
+    "createdAt": "2025-01-08T15:00:00.000Z",
+    "updatedAt": "2026-04-08T10:30:00.000Z"
   },
   {
     "id": 8,
-    "name": "Henry Clark",
+    "userId": 8,
+    "displayName": "Henry Clark",
     "username": "henryc",
-    "email": "henry.clark@example.com",
     "avatar": "https://i.pravatar.cc/150?img=8",
-    "phone": "+1-202-555-0808",
-    "website": "https://henryclark.io",
-    "address": {
-      "street": "34 Spruce Ln",
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Henry Clark builds practical software tools from Columbus, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
       "city": "Columbus",
-      "zipcode": "43215"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Product",
+      "experienceYears": 9,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://henryclark.io",
+      "github": "https://github.com/henryc",
+      "linkedin": "https://www.linkedin.com/in/henryc",
+      "twitter": "https://x.com/henryc"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 5,
+      "reputation": 219
+    },
+    "createdAt": "2025-01-09T16:00:00.000Z",
+    "updatedAt": "2026-04-09T11:30:00.000Z"
   },
   {
     "id": 9,
-    "name": "Isabella Scott",
+    "userId": 9,
+    "displayName": "Isabella Scott",
     "username": "isabellas",
-    "email": "isabella.scott@example.com",
     "avatar": "https://i.pravatar.cc/150?img=9",
-    "phone": "+1-202-555-0909",
-    "website": "https://isabellascott.dev",
-    "address": {
-      "street": "88 Chestnut St",
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Isabella Scott builds practical software tools from Austin, with a focus on testing and reliable developer workflows.",
+    "location": {
       "city": "Austin",
-      "zipcode": "78701"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Platform",
+      "experienceYears": 10,
+      "availableForHire": true
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://isabellascott.dev",
+      "github": "https://github.com/isabellas",
+      "linkedin": "https://www.linkedin.com/in/isabellas",
+      "twitter": "https://x.com/isabellas"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 5,
+      "reputation": 236
+    },
+    "createdAt": "2025-01-10T09:00:00.000Z",
+    "updatedAt": "2026-04-10T12:30:00.000Z"
   },
   {
     "id": 10,
-    "name": "Jack Turner",
+    "userId": 10,
+    "displayName": "Jack Turner",
     "username": "jackt",
-    "email": "jack.turner@example.com",
     "avatar": "https://i.pravatar.cc/150?img=10",
-    "phone": "+1-202-555-1010",
-    "website": "https://jackturner.io",
-    "address": {
-      "street": "44 Poplar Ave",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Jack Turner builds practical software tools from Denver, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "Denver",
-      "zipcode": "80203"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Engineering",
+      "experienceYears": 11,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://jackturner.io",
+      "github": "https://github.com/jackt",
+      "linkedin": "https://www.linkedin.com/in/jackt",
+      "twitter": "https://x.com/jackt"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 5,
+      "reputation": 253
+    },
+    "createdAt": "2025-01-11T10:00:00.000Z",
+    "updatedAt": "2026-04-11T13:30:00.000Z"
   },
   {
     "id": 11,
-    "name": "Kathy Morgan",
+    "userId": 11,
+    "displayName": "Kathy Morgan",
     "username": "kathym",
-    "email": "kathy.morgan@example.com",
     "avatar": "https://i.pravatar.cc/150?img=11",
-    "phone": "+1-202-555-1111",
-    "website": "https://kathymorgan.dev",
-    "address": {
-      "street": "77 Magnolia St",
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Kathy Morgan builds practical software tools from Atlanta, with a focus on API design and reliable developer workflows.",
+    "location": {
       "city": "Atlanta",
-      "zipcode": "30303"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Product",
+      "experienceYears": 12,
+      "availableForHire": false
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://kathymorgan.dev",
+      "github": "https://github.com/kathym",
+      "linkedin": "https://www.linkedin.com/in/kathym",
+      "twitter": "https://x.com/kathym"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 270
+    },
+    "createdAt": "2025-01-12T11:00:00.000Z",
+    "updatedAt": "2026-04-12T14:30:00.000Z"
   },
   {
     "id": 12,
-    "name": "Liam Davis",
+    "userId": 12,
+    "displayName": "Liam Davis",
     "username": "liamd",
-    "email": "liam.davis@example.com",
     "avatar": "https://i.pravatar.cc/150?img=12",
-    "phone": "+1-202-555-1212",
-    "website": "https://liamdavis.io",
-    "address": { "street": "22 Fir Ln", "city": "Seattle", "zipcode": "98101" }
+    "headline": "Backend Developer at MockForge",
+    "bio": "Liam Davis builds practical software tools from Seattle, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
+      "city": "Seattle",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Platform",
+      "experienceYears": 13,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://liamdavis.io",
+      "github": "https://github.com/liamd",
+      "linkedin": "https://www.linkedin.com/in/liamd",
+      "twitter": "https://x.com/liamd"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 287
+    },
+    "createdAt": "2025-01-13T12:00:00.000Z",
+    "updatedAt": "2026-04-13T15:30:00.000Z"
   },
   {
     "id": 13,
-    "name": "Mia Thompson",
+    "userId": 13,
+    "displayName": "Mia Thompson",
     "username": "miat",
-    "email": "mia.thompson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=13",
-    "phone": "+1-202-555-1313",
-    "website": "https://miathompson.dev",
-    "address": { "street": "11 Maple Rd", "city": "Boston", "zipcode": "02101" }
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Mia Thompson builds practical software tools from Boston, with a focus on mock data and reliable developer workflows.",
+    "location": {
+      "city": "Boston",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Engineering",
+      "experienceYears": 2,
+      "availableForHire": true
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://miathompson.dev",
+      "github": "https://github.com/miat",
+      "linkedin": "https://www.linkedin.com/in/miat",
+      "twitter": "https://x.com/miat"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 304
+    },
+    "createdAt": "2025-01-14T13:00:00.000Z",
+    "updatedAt": "2026-04-14T10:30:00.000Z"
   },
   {
     "id": 14,
-    "name": "Noah Wilson",
+    "userId": 14,
+    "displayName": "Noah Wilson",
     "username": "noahw",
-    "email": "noah.wilson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=14",
-    "phone": "+1-202-555-1414",
-    "website": "https://noahwilson.io",
-    "address": { "street": "33 Pine St", "city": "Miami", "zipcode": "33101" }
+    "headline": "API Engineer at APIStudio",
+    "bio": "Noah Wilson builds practical software tools from Miami, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
+      "city": "Miami",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Product",
+      "experienceYears": 3,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://noahwilson.io",
+      "github": "https://github.com/noahw",
+      "linkedin": "https://www.linkedin.com/in/noahw",
+      "twitter": "https://x.com/noahw"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 321
+    },
+    "createdAt": "2025-01-15T14:00:00.000Z",
+    "updatedAt": "2026-04-15T11:30:00.000Z"
   },
   {
     "id": 15,
-    "name": "Olivia Garcia",
+    "userId": 15,
+    "displayName": "Olivia Garcia",
     "username": "oliviag",
-    "email": "olivia.garcia@example.com",
     "avatar": "https://i.pravatar.cc/150?img=15",
-    "phone": "+1-202-555-1515",
-    "website": "https://oliviagarcia.dev",
-    "address": {
-      "street": "55 Elm St",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Olivia Garcia builds practical software tools from Philadelphia, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Philadelphia",
-      "zipcode": "19101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Platform",
+      "experienceYears": 4,
+      "availableForHire": false
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://oliviagarcia.dev",
+      "github": "https://github.com/oliviag",
+      "linkedin": "https://www.linkedin.com/in/oliviag",
+      "twitter": "https://x.com/oliviag"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 338
+    },
+    "createdAt": "2025-01-16T15:00:00.000Z",
+    "updatedAt": "2026-04-16T12:30:00.000Z"
   },
   {
     "id": 16,
-    "name": "Paul Walker",
+    "userId": 16,
+    "displayName": "Paul Walker",
     "username": "paulw",
-    "email": "paul.walker@example.com",
     "avatar": "https://i.pravatar.cc/150?img=16",
-    "phone": "+1-202-555-1616",
-    "website": "https://paulwalker.io",
-    "address": {
-      "street": "88 Cedar Ln",
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Paul Walker builds practical software tools from Chicago, with a focus on automation and reliable developer workflows.",
+    "location": {
       "city": "Chicago",
-      "zipcode": "60601"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Engineering",
+      "experienceYears": 5,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://paulwalker.io",
+      "github": "https://github.com/paulw",
+      "linkedin": "https://www.linkedin.com/in/paulw",
+      "twitter": "https://x.com/paulw"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 355
+    },
+    "createdAt": "2025-01-17T16:00:00.000Z",
+    "updatedAt": "2026-04-17T13:30:00.000Z"
   },
   {
     "id": 17,
-    "name": "Quinn Evans",
+    "userId": 17,
+    "displayName": "Quinn Evans",
     "username": "quinne",
-    "email": "quinn.evans@example.com",
     "avatar": "https://i.pravatar.cc/150?img=17",
-    "phone": "+1-202-555-1717",
-    "website": "https://quinnevans.dev",
-    "address": {
-      "street": "44 Spruce St",
+    "headline": "Product Designer at DataBridge",
+    "bio": "Quinn Evans builds practical software tools from Houston, with a focus on open source and reliable developer workflows.",
+    "location": {
       "city": "Houston",
-      "zipcode": "77001"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Product",
+      "experienceYears": 6,
+      "availableForHire": true
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://quinnevans.dev",
+      "github": "https://github.com/quinne",
+      "linkedin": "https://www.linkedin.com/in/quinne",
+      "twitter": "https://x.com/quinne"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 372
+    },
+    "createdAt": "2025-01-18T09:00:00.000Z",
+    "updatedAt": "2026-04-18T14:30:00.000Z"
   },
   {
     "id": 18,
-    "name": "Rachel Adams",
+    "userId": 18,
+    "displayName": "Rachel Adams",
     "username": "rachela",
-    "email": "rachel.adams@example.com",
     "avatar": "https://i.pravatar.cc/150?img=18",
-    "phone": "+1-202-555-1818",
-    "website": "https://racheladams.io",
-    "address": { "street": "99 Oak St", "city": "Phoenix", "zipcode": "85001" }
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Rachel Adams builds practical software tools from Phoenix, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
+      "city": "Phoenix",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Platform",
+      "experienceYears": 7,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://racheladams.io",
+      "github": "https://github.com/rachela",
+      "linkedin": "https://www.linkedin.com/in/rachela",
+      "twitter": "https://x.com/rachela"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 389
+    },
+    "createdAt": "2025-01-19T10:00:00.000Z",
+    "updatedAt": "2026-04-19T15:30:00.000Z"
   },
   {
     "id": 19,
-    "name": "Steve King",
+    "userId": 19,
+    "displayName": "Steve King",
     "username": "stevek",
-    "email": "steve.king@example.com",
     "avatar": "https://i.pravatar.cc/150?img=19",
-    "phone": "+1-202-555-1919",
-    "website": "https://steveking.dev",
-    "address": {
-      "street": "101 Birch Blvd",
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Steve King builds practical software tools from San Diego, with a focus on testing and reliable developer workflows.",
+    "location": {
       "city": "San Diego",
-      "zipcode": "92101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Engineering",
+      "experienceYears": 8,
+      "availableForHire": false
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://steveking.dev",
+      "github": "https://github.com/stevek",
+      "linkedin": "https://www.linkedin.com/in/stevek",
+      "twitter": "https://x.com/stevek"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 4,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 406
+    },
+    "createdAt": "2025-01-20T11:00:00.000Z",
+    "updatedAt": "2026-04-20T10:30:00.000Z"
   },
   {
     "id": 20,
-    "name": "Tina Scott",
+    "userId": 20,
+    "displayName": "Tina Scott",
     "username": "tinas",
-    "email": "tina.scott@example.com",
     "avatar": "https://i.pravatar.cc/150?img=20",
-    "phone": "+1-202-555-2020",
-    "website": "https://tinascott.io",
-    "address": {
-      "street": "121 Walnut St",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Tina Scott builds practical software tools from Dallas, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "Dallas",
-      "zipcode": "75201"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Product",
+      "experienceYears": 9,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://tinascott.io",
+      "github": "https://github.com/tinas",
+      "linkedin": "https://www.linkedin.com/in/tinas",
+      "twitter": "https://x.com/tinas"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 3,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 423
+    },
+    "createdAt": "2025-01-21T12:00:00.000Z",
+    "updatedAt": "2026-04-01T11:30:00.000Z"
   },
   {
     "id": 21,
-    "name": "Uma Patel",
+    "userId": 21,
+    "displayName": "Uma Patel",
     "username": "umapatel",
-    "email": "uma.patel@example.com",
     "avatar": "https://i.pravatar.cc/150?img=21",
-    "phone": "+1-202-555-2121",
-    "website": "https://umapatel.dev",
-    "address": {
-      "street": "234 Cypress Rd",
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Uma Patel builds practical software tools from Orlando, with a focus on API design and reliable developer workflows.",
+    "location": {
       "city": "Orlando",
-      "zipcode": "32801"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Platform",
+      "experienceYears": 10,
+      "availableForHire": true
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://umapatel.dev",
+      "github": "https://github.com/umapatel",
+      "linkedin": "https://www.linkedin.com/in/umapatel",
+      "twitter": "https://x.com/umapatel"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 3,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 440
+    },
+    "createdAt": "2025-01-22T13:00:00.000Z",
+    "updatedAt": "2026-04-02T12:30:00.000Z"
   },
   {
     "id": 22,
-    "name": "Victor Nguyen",
+    "userId": 22,
+    "displayName": "Victor Nguyen",
     "username": "victorn",
-    "email": "victor.nguyen@example.com",
     "avatar": "https://i.pravatar.cc/150?img=22",
-    "phone": "+1-202-555-2222",
-    "website": "https://victornguyen.io",
-    "address": {
-      "street": "56 Palm St",
+    "headline": "Backend Developer at MockForge",
+    "bio": "Victor Nguyen builds practical software tools from Las Vegas, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
       "city": "Las Vegas",
-      "zipcode": "89101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Engineering",
+      "experienceYears": 11,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://victornguyen.io",
+      "github": "https://github.com/victorn",
+      "linkedin": "https://www.linkedin.com/in/victorn",
+      "twitter": "https://x.com/victorn"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 457
+    },
+    "createdAt": "2025-01-23T14:00:00.000Z",
+    "updatedAt": "2026-04-03T13:30:00.000Z"
   },
   {
     "id": 23,
-    "name": "Wendy Kim",
+    "userId": 23,
+    "displayName": "Wendy Kim",
     "username": "wendyk",
-    "email": "wendy.kim@example.com",
     "avatar": "https://i.pravatar.cc/150?img=23",
-    "phone": "+1-202-555-2323",
-    "website": "https://wendykim.dev",
-    "address": {
-      "street": "78 Maple Ln",
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Wendy Kim builds practical software tools from Sacramento, with a focus on mock data and reliable developer workflows.",
+    "location": {
       "city": "Sacramento",
-      "zipcode": "95814"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Product",
+      "experienceYears": 12,
+      "availableForHire": false
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://wendykim.dev",
+      "github": "https://github.com/wendyk",
+      "linkedin": "https://www.linkedin.com/in/wendyk",
+      "twitter": "https://x.com/wendyk"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 474
+    },
+    "createdAt": "2025-01-24T15:00:00.000Z",
+    "updatedAt": "2026-04-04T14:30:00.000Z"
   },
   {
     "id": 24,
-    "name": "Xavier Lopez",
+    "userId": 24,
+    "displayName": "Xavier Lopez",
     "username": "xavierl",
-    "email": "xavier.lopez@example.com",
     "avatar": "https://i.pravatar.cc/150?img=24",
-    "phone": "+1-202-555-2424",
-    "website": "https://xavierlopez.io",
-    "address": {
-      "street": "90 Birch St",
+    "headline": "API Engineer at APIStudio",
+    "bio": "Xavier Lopez builds practical software tools from Detroit, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
       "city": "Detroit",
-      "zipcode": "48201"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Platform",
+      "experienceYears": 13,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://xavierlopez.io",
+      "github": "https://github.com/xavierl",
+      "linkedin": "https://www.linkedin.com/in/xavierl",
+      "twitter": "https://x.com/xavierl"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 491
+    },
+    "createdAt": "2025-01-25T16:00:00.000Z",
+    "updatedAt": "2026-04-05T15:30:00.000Z"
   },
   {
     "id": 25,
-    "name": "Yara Fernandez",
+    "userId": 25,
+    "displayName": "Yara Fernandez",
     "username": "yaraf",
-    "email": "yara.fernandez@example.com",
     "avatar": "https://i.pravatar.cc/150?img=25",
-    "phone": "+1-202-555-2525",
-    "website": "https://yaraf.dev",
-    "address": {
-      "street": "33 Pine Blvd",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Yara Fernandez builds practical software tools from Memphis, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Memphis",
-      "zipcode": "38103"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Engineering",
+      "experienceYears": 2,
+      "availableForHire": true
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://yaraf.dev",
+      "github": "https://github.com/yaraf",
+      "linkedin": "https://www.linkedin.com/in/yaraf",
+      "twitter": "https://x.com/yaraf"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 508
+    },
+    "createdAt": "2025-01-26T09:00:00.000Z",
+    "updatedAt": "2026-04-06T10:30:00.000Z"
   },
   {
     "id": 26,
-    "name": "Zachary Scott",
+    "userId": 26,
+    "displayName": "Zachary Scott",
     "username": "zacharys",
-    "email": "zachary.scott@example.com",
     "avatar": "https://i.pravatar.cc/150?img=26",
-    "phone": "+1-202-555-2626",
-    "website": "https://zacharyscott.io",
-    "address": {
-      "street": "12 Elm St",
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Zachary Scott builds practical software tools from Baltimore, with a focus on automation and reliable developer workflows.",
+    "location": {
       "city": "Baltimore",
-      "zipcode": "21201"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Product",
+      "experienceYears": 3,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://zacharyscott.io",
+      "github": "https://github.com/zacharys",
+      "linkedin": "https://www.linkedin.com/in/zacharys",
+      "twitter": "https://x.com/zacharys"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 3,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 525
+    },
+    "createdAt": "2025-01-27T10:00:00.000Z",
+    "updatedAt": "2026-04-07T11:30:00.000Z"
   },
   {
     "id": 27,
-    "name": "Amy Parker",
+    "userId": 27,
+    "displayName": "Amy Parker",
     "username": "amyp",
-    "email": "amy.parker@example.com",
     "avatar": "https://i.pravatar.cc/150?img=27",
-    "phone": "+1-202-555-2727",
-    "website": "https://amyparker.dev",
-    "address": {
-      "street": "88 Spruce St",
+    "headline": "Product Designer at DataBridge",
+    "bio": "Amy Parker builds practical software tools from Kansas City, with a focus on open source and reliable developer workflows.",
+    "location": {
       "city": "Kansas City",
-      "zipcode": "64101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Platform",
+      "experienceYears": 4,
+      "availableForHire": false
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://amyparker.dev",
+      "github": "https://github.com/amyp",
+      "linkedin": "https://www.linkedin.com/in/amyp",
+      "twitter": "https://x.com/amyp"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 542
+    },
+    "createdAt": "2025-01-28T11:00:00.000Z",
+    "updatedAt": "2026-04-08T12:30:00.000Z"
   },
   {
     "id": 28,
-    "name": "Brian Evans",
+    "userId": 28,
+    "displayName": "Brian Evans",
     "username": "briane",
-    "email": "brian.evans@example.com",
     "avatar": "https://i.pravatar.cc/150?img=28",
-    "phone": "+1-202-555-2828",
-    "website": "https://brianevans.io",
-    "address": {
-      "street": "45 Walnut Blvd",
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Brian Evans builds practical software tools from Columbus, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
       "city": "Columbus",
-      "zipcode": "43215"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Engineering",
+      "experienceYears": 5,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://brianevans.io",
+      "github": "https://github.com/briane",
+      "linkedin": "https://www.linkedin.com/in/briane",
+      "twitter": "https://x.com/briane"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 559
+    },
+    "createdAt": "2025-01-01T12:00:00.000Z",
+    "updatedAt": "2026-04-09T13:30:00.000Z"
   },
   {
     "id": 29,
-    "name": "Chloe Richardson",
+    "userId": 29,
+    "displayName": "Chloe Richardson",
     "username": "chloer",
-    "email": "chloe.richardson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=29",
-    "phone": "+1-202-555-2929",
-    "website": "https://chloerichardson.dev",
-    "address": {
-      "street": "77 Cedar Ln",
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Chloe Richardson builds practical software tools from Charlotte, with a focus on testing and reliable developer workflows.",
+    "location": {
       "city": "Charlotte",
-      "zipcode": "28202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Product",
+      "experienceYears": 6,
+      "availableForHire": true
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://chloerichardson.dev",
+      "github": "https://github.com/chloer",
+      "linkedin": "https://www.linkedin.com/in/chloer",
+      "twitter": "https://x.com/chloer"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 576
+    },
+    "createdAt": "2025-01-02T13:00:00.000Z",
+    "updatedAt": "2026-04-10T14:30:00.000Z"
   },
   {
     "id": 30,
-    "name": "Derek Brooks",
+    "userId": 30,
+    "displayName": "Derek Brooks",
     "username": "derekb",
-    "email": "derek.brooks@example.com",
     "avatar": "https://i.pravatar.cc/150?img=30",
-    "phone": "+1-202-555-3030",
-    "website": "https://derekbrooks.io",
-    "address": {
-      "street": "10 Oak St",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Derek Brooks builds practical software tools from Milwaukee, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "Milwaukee",
-      "zipcode": "53202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Platform",
+      "experienceYears": 7,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://derekbrooks.io",
+      "github": "https://github.com/derekb",
+      "linkedin": "https://www.linkedin.com/in/derekb",
+      "twitter": "https://x.com/derekb"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 593
+    },
+    "createdAt": "2025-01-03T14:00:00.000Z",
+    "updatedAt": "2026-04-11T15:30:00.000Z"
   },
   {
     "id": 31,
-    "name": "Emily Turner",
+    "userId": 31,
+    "displayName": "Emily Turner",
     "username": "emilyt",
-    "email": "emily.turner@example.com",
     "avatar": "https://i.pravatar.cc/150?img=31",
-    "phone": "+1-202-555-3131",
-    "website": "https://emilyturner.dev",
-    "address": { "street": "21 Maple Rd", "city": "Tampa", "zipcode": "33602" }
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Emily Turner builds practical software tools from Tampa, with a focus on API design and reliable developer workflows.",
+    "location": {
+      "city": "Tampa",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Engineering",
+      "experienceYears": 8,
+      "availableForHire": false
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://emilyturner.dev",
+      "github": "https://github.com/emilyt",
+      "linkedin": "https://www.linkedin.com/in/emilyt",
+      "twitter": "https://x.com/emilyt"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 610
+    },
+    "createdAt": "2025-01-04T15:00:00.000Z",
+    "updatedAt": "2026-04-12T10:30:00.000Z"
   },
   {
     "id": 32,
-    "name": "Felix Martin",
+    "userId": 32,
+    "displayName": "Felix Martin",
     "username": "felixm",
-    "email": "felix.martin@example.com",
     "avatar": "https://i.pravatar.cc/150?img=32",
-    "phone": "+1-202-555-3232",
-    "website": "https://felixmartin.io",
-    "address": {
-      "street": "44 Birch St",
+    "headline": "Backend Developer at MockForge",
+    "bio": "Felix Martin builds practical software tools from Cleveland, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
       "city": "Cleveland",
-      "zipcode": "44114"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Product",
+      "experienceYears": 9,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://felixmartin.io",
+      "github": "https://github.com/felixm",
+      "linkedin": "https://www.linkedin.com/in/felixm",
+      "twitter": "https://x.com/felixm"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 627
+    },
+    "createdAt": "2025-01-05T16:00:00.000Z",
+    "updatedAt": "2026-04-13T11:30:00.000Z"
   },
   {
     "id": 33,
-    "name": "Gabriella White",
+    "userId": 33,
+    "displayName": "Gabriella White",
     "username": "gabriellaw",
-    "email": "gabriella.white@example.com",
     "avatar": "https://i.pravatar.cc/150?img=33",
-    "phone": "+1-202-555-3333",
-    "website": "https://gabriellawhite.dev",
-    "address": { "street": "55 Pine Ln", "city": "Austin", "zipcode": "78701" }
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Gabriella White builds practical software tools from Austin, with a focus on mock data and reliable developer workflows.",
+    "location": {
+      "city": "Austin",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Platform",
+      "experienceYears": 10,
+      "availableForHire": true
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://gabriellawhite.dev",
+      "github": "https://github.com/gabriellaw",
+      "linkedin": "https://www.linkedin.com/in/gabriellaw",
+      "twitter": "https://x.com/gabriellaw"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 644
+    },
+    "createdAt": "2025-01-06T09:00:00.000Z",
+    "updatedAt": "2026-04-14T12:30:00.000Z"
   },
   {
     "id": 34,
-    "name": "Harold Young",
+    "userId": 34,
+    "displayName": "Harold Young",
     "username": "haroldy",
-    "email": "harold.young@example.com",
     "avatar": "https://i.pravatar.cc/150?img=34",
-    "phone": "+1-202-555-3434",
-    "website": "https://haroldyoung.io",
-    "address": {
-      "street": "12 Elm Blvd",
+    "headline": "API Engineer at APIStudio",
+    "bio": "Harold Young builds practical software tools from Jacksonville, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
       "city": "Jacksonville",
-      "zipcode": "32202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Engineering",
+      "experienceYears": 11,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://haroldyoung.io",
+      "github": "https://github.com/haroldy",
+      "linkedin": "https://www.linkedin.com/in/haroldy",
+      "twitter": "https://x.com/haroldy"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 661
+    },
+    "createdAt": "2025-01-07T10:00:00.000Z",
+    "updatedAt": "2026-04-15T13:30:00.000Z"
   },
   {
     "id": 35,
-    "name": "Ivy King",
+    "userId": 35,
+    "displayName": "Ivy King",
     "username": "ivyk",
-    "email": "ivy.king@example.com",
     "avatar": "https://i.pravatar.cc/150?img=35",
-    "phone": "+1-202-555-3535",
-    "website": "https://ivyking.dev",
-    "address": {
-      "street": "77 Spruce St",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Ivy King builds practical software tools from Fort Worth, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Fort Worth",
-      "zipcode": "76102"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Product",
+      "experienceYears": 12,
+      "availableForHire": false
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://ivyking.dev",
+      "github": "https://github.com/ivyk",
+      "linkedin": "https://www.linkedin.com/in/ivyk",
+      "twitter": "https://x.com/ivyk"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 678
+    },
+    "createdAt": "2025-01-08T11:00:00.000Z",
+    "updatedAt": "2026-04-16T14:30:00.000Z"
   },
   {
     "id": 36,
-    "name": "Jason Hill",
+    "userId": 36,
+    "displayName": "Jason Hill",
     "username": "jasonh",
-    "email": "jason.hill@example.com",
     "avatar": "https://i.pravatar.cc/150?img=36",
-    "phone": "+1-202-555-3636",
-    "website": "https://jasonhill.io",
-    "address": {
-      "street": "34 Walnut Rd",
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Jason Hill builds practical software tools from Columbus, with a focus on automation and reliable developer workflows.",
+    "location": {
       "city": "Columbus",
-      "zipcode": "43215"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Platform",
+      "experienceYears": 13,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://jasonhill.io",
+      "github": "https://github.com/jasonh",
+      "linkedin": "https://www.linkedin.com/in/jasonh",
+      "twitter": "https://x.com/jasonh"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 695
+    },
+    "createdAt": "2025-01-09T12:00:00.000Z",
+    "updatedAt": "2026-04-17T15:30:00.000Z"
   },
   {
     "id": 37,
-    "name": "Kara Reed",
+    "userId": 37,
+    "displayName": "Kara Reed",
     "username": "karar",
-    "email": "kara.reed@example.com",
     "avatar": "https://i.pravatar.cc/150?img=37",
-    "phone": "+1-202-555-3737",
-    "website": "https://karareed.dev",
-    "address": {
-      "street": "88 Cedar St",
+    "headline": "Product Designer at DataBridge",
+    "bio": "Kara Reed builds practical software tools from San Antonio, with a focus on open source and reliable developer workflows.",
+    "location": {
       "city": "San Antonio",
-      "zipcode": "78205"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Engineering",
+      "experienceYears": 2,
+      "availableForHire": true
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://karareed.dev",
+      "github": "https://github.com/karar",
+      "linkedin": "https://www.linkedin.com/in/karar",
+      "twitter": "https://x.com/karar"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 712
+    },
+    "createdAt": "2025-01-10T13:00:00.000Z",
+    "updatedAt": "2026-04-18T10:30:00.000Z"
   },
   {
     "id": 38,
-    "name": "Leo Simmons",
+    "userId": 38,
+    "displayName": "Leo Simmons",
     "username": "leos",
-    "email": "leo.simmons@example.com",
     "avatar": "https://i.pravatar.cc/150?img=38",
-    "phone": "+1-202-555-3838",
-    "website": "https://leosimmons.io",
-    "address": { "street": "99 Oak Ln", "city": "Denver", "zipcode": "80203" }
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Leo Simmons builds practical software tools from Denver, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
+      "city": "Denver",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Product",
+      "experienceYears": 3,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://leosimmons.io",
+      "github": "https://github.com/leos",
+      "linkedin": "https://www.linkedin.com/in/leos",
+      "twitter": "https://x.com/leos"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 729
+    },
+    "createdAt": "2025-01-11T14:00:00.000Z",
+    "updatedAt": "2026-04-19T11:30:00.000Z"
   },
   {
     "id": 39,
-    "name": "Maya Bell",
+    "userId": 39,
+    "displayName": "Maya Bell",
     "username": "mayab",
-    "email": "maya.bell@example.com",
     "avatar": "https://i.pravatar.cc/150?img=39",
-    "phone": "+1-202-555-3939",
-    "website": "https://mayabell.dev",
-    "address": { "street": "101 Pine St", "city": "Boston", "zipcode": "02101" }
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Maya Bell builds practical software tools from Boston, with a focus on testing and reliable developer workflows.",
+    "location": {
+      "city": "Boston",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Platform",
+      "experienceYears": 4,
+      "availableForHire": false
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://mayabell.dev",
+      "github": "https://github.com/mayab",
+      "linkedin": "https://www.linkedin.com/in/mayab",
+      "twitter": "https://x.com/mayab"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 746
+    },
+    "createdAt": "2025-01-12T15:00:00.000Z",
+    "updatedAt": "2026-04-20T12:30:00.000Z"
   },
   {
     "id": 40,
-    "name": "Nathaniel Brooks",
+    "userId": 40,
+    "displayName": "Nathaniel Brooks",
     "username": "nathanielb",
-    "email": "nathaniel.brooks@example.com",
     "avatar": "https://i.pravatar.cc/150?img=40",
-    "phone": "+1-202-555-4040",
-    "website": "https://nathanielbrooks.io",
-    "address": {
-      "street": "121 Maple Ave",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Nathaniel Brooks builds practical software tools from Miami, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "Miami",
-      "zipcode": "33101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Engineering",
+      "experienceYears": 5,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://nathanielbrooks.io",
+      "github": "https://github.com/nathanielb",
+      "linkedin": "https://www.linkedin.com/in/nathanielb",
+      "twitter": "https://x.com/nathanielb"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 763
+    },
+    "createdAt": "2025-01-13T16:00:00.000Z",
+    "updatedAt": "2026-04-01T13:30:00.000Z"
   },
   {
     "id": 41,
-    "name": "Olga Bennett",
+    "userId": 41,
+    "displayName": "Olga Bennett",
     "username": "olgab",
-    "email": "olga.bennett@example.com",
     "avatar": "https://i.pravatar.cc/150?img=41",
-    "phone": "+1-202-555-4141",
-    "website": "https://olgabennett.dev",
-    "address": {
-      "street": "34 Magnolia St",
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Olga Bennett builds practical software tools from Louisville, with a focus on API design and reliable developer workflows.",
+    "location": {
       "city": "Louisville",
-      "zipcode": "40202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Product",
+      "experienceYears": 6,
+      "availableForHire": true
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://olgabennett.dev",
+      "github": "https://github.com/olgab",
+      "linkedin": "https://www.linkedin.com/in/olgab",
+      "twitter": "https://x.com/olgab"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 780
+    },
+    "createdAt": "2025-01-14T09:00:00.000Z",
+    "updatedAt": "2026-04-02T14:30:00.000Z"
   },
   {
     "id": 42,
-    "name": "Peter Gray",
+    "userId": 42,
+    "displayName": "Peter Gray",
     "username": "peterg",
-    "email": "peter.gray@example.com",
     "avatar": "https://i.pravatar.cc/150?img=42",
-    "phone": "+1-202-555-4242",
-    "website": "https://petergray.io",
-    "address": { "street": "72 Oak Ave", "city": "Fresno", "zipcode": "93721" }
+    "headline": "Backend Developer at MockForge",
+    "bio": "Peter Gray builds practical software tools from Fresno, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
+      "city": "Fresno",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Platform",
+      "experienceYears": 7,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://petergray.io",
+      "github": "https://github.com/peterg",
+      "linkedin": "https://www.linkedin.com/in/peterg",
+      "twitter": "https://x.com/peterg"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 797
+    },
+    "createdAt": "2025-01-15T10:00:00.000Z",
+    "updatedAt": "2026-04-03T15:30:00.000Z"
   },
   {
     "id": 43,
-    "name": "Quincy Harris",
+    "userId": 43,
+    "displayName": "Quincy Harris",
     "username": "quincyh",
-    "email": "quincy.harris@example.com",
     "avatar": "https://i.pravatar.cc/150?img=43",
-    "phone": "+1-202-555-4343",
-    "website": "https://quincyharris.dev",
-    "address": {
-      "street": "88 Spruce Ln",
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Quincy Harris builds practical software tools from Tucson, with a focus on mock data and reliable developer workflows.",
+    "location": {
       "city": "Tucson",
-      "zipcode": "85701"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Engineering",
+      "experienceYears": 8,
+      "availableForHire": false
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://quincyharris.dev",
+      "github": "https://github.com/quincyh",
+      "linkedin": "https://www.linkedin.com/in/quincyh",
+      "twitter": "https://x.com/quincyh"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 814
+    },
+    "createdAt": "2025-01-16T11:00:00.000Z",
+    "updatedAt": "2026-04-04T10:30:00.000Z"
   },
   {
     "id": 44,
-    "name": "Rita Nelson",
+    "userId": 44,
+    "displayName": "Rita Nelson",
     "username": "ritan",
-    "email": "rita.nelson@example.com",
     "avatar": "https://i.pravatar.cc/150?img=44",
-    "phone": "+1-202-555-4444",
-    "website": "https://ritanelson.dev",
-    "address": { "street": "22 Pine St", "city": "Mesa", "zipcode": "85201" }
+    "headline": "API Engineer at APIStudio",
+    "bio": "Rita Nelson builds practical software tools from Mesa, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
+      "city": "Mesa",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Product",
+      "experienceYears": 9,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://ritanelson.dev",
+      "github": "https://github.com/ritan",
+      "linkedin": "https://www.linkedin.com/in/ritan",
+      "twitter": "https://x.com/ritan"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 831
+    },
+    "createdAt": "2025-01-17T12:00:00.000Z",
+    "updatedAt": "2026-04-05T11:30:00.000Z"
   },
   {
     "id": 45,
-    "name": "Samuel Grant",
+    "userId": 45,
+    "displayName": "Samuel Grant",
     "username": "samuelg",
-    "email": "samuel.grant@example.com",
     "avatar": "https://i.pravatar.cc/150?img=45",
-    "phone": "+1-202-555-4545",
-    "website": "https://samuelgrant.io",
-    "address": {
-      "street": "19 Birch Blvd",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Samuel Grant builds practical software tools from Atlanta, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Atlanta",
-      "zipcode": "30303"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Platform",
+      "experienceYears": 10,
+      "availableForHire": true
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://samuelgrant.io",
+      "github": "https://github.com/samuelg",
+      "linkedin": "https://www.linkedin.com/in/samuelg",
+      "twitter": "https://x.com/samuelg"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 848
+    },
+    "createdAt": "2025-01-18T13:00:00.000Z",
+    "updatedAt": "2026-04-06T12:30:00.000Z"
   },
   {
     "id": 46,
-    "name": "Tasha Morgan",
+    "userId": 46,
+    "displayName": "Tasha Morgan",
     "username": "tasham",
-    "email": "tasha.morgan@example.com",
     "avatar": "https://i.pravatar.cc/150?img=46",
-    "phone": "+1-202-555-4646",
-    "website": "https://tashamorgan.dev",
-    "address": { "street": "33 Maple Ln", "city": "Tulsa", "zipcode": "74103" }
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Tasha Morgan builds practical software tools from Tulsa, with a focus on automation and reliable developer workflows.",
+    "location": {
+      "city": "Tulsa",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Engineering",
+      "experienceYears": 11,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://tashamorgan.dev",
+      "github": "https://github.com/tasham",
+      "linkedin": "https://www.linkedin.com/in/tasham",
+      "twitter": "https://x.com/tasham"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 865
+    },
+    "createdAt": "2025-01-19T14:00:00.000Z",
+    "updatedAt": "2026-04-07T13:30:00.000Z"
   },
   {
     "id": 47,
-    "name": "Uriel Howard",
+    "userId": 47,
+    "displayName": "Uriel Howard",
     "username": "urielh",
-    "email": "uriel.howard@example.com",
     "avatar": "https://i.pravatar.cc/150?img=47",
-    "phone": "+1-202-555-4747",
-    "website": "https://urielhoward.dev",
-    "address": {
-      "street": "44 Elm St",
+    "headline": "Product Designer at DataBridge",
+    "bio": "Uriel Howard builds practical software tools from Albuquerque, with a focus on open source and reliable developer workflows.",
+    "location": {
       "city": "Albuquerque",
-      "zipcode": "87102"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Product",
+      "experienceYears": 12,
+      "availableForHire": false
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://urielhoward.dev",
+      "github": "https://github.com/urielh",
+      "linkedin": "https://www.linkedin.com/in/urielh",
+      "twitter": "https://x.com/urielh"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 2,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 882
+    },
+    "createdAt": "2025-01-20T15:00:00.000Z",
+    "updatedAt": "2026-04-08T14:30:00.000Z"
   },
   {
     "id": 48,
-    "name": "Vanessa Cook",
+    "userId": 48,
+    "displayName": "Vanessa Cook",
     "username": "vanessac",
-    "email": "vanessa.cook@example.com",
     "avatar": "https://i.pravatar.cc/150?img=48",
-    "phone": "+1-202-555-4848",
-    "website": "https://vanessacook.io",
-    "address": { "street": "11 Oak Rd", "city": "Omaha", "zipcode": "68102" }
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Vanessa Cook builds practical software tools from Omaha, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
+      "city": "Omaha",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Platform",
+      "experienceYears": 13,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://vanessacook.io",
+      "github": "https://github.com/vanessac",
+      "linkedin": "https://www.linkedin.com/in/vanessac",
+      "twitter": "https://x.com/vanessac"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 899
+    },
+    "createdAt": "2025-01-21T16:00:00.000Z",
+    "updatedAt": "2026-04-09T15:30:00.000Z"
   },
   {
     "id": 49,
-    "name": "Warren Mitchell",
+    "userId": 49,
+    "displayName": "Warren Mitchell",
     "username": "warrenm",
-    "email": "warren.mitchell@example.com",
     "avatar": "https://i.pravatar.cc/150?img=49",
-    "phone": "+1-202-555-4949",
-    "website": "https://warrenmitchell.dev",
-    "address": {
-      "street": "90 Walnut Ave",
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Warren Mitchell builds practical software tools from Minneapolis, with a focus on testing and reliable developer workflows.",
+    "location": {
       "city": "Minneapolis",
-      "zipcode": "55401"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Engineering",
+      "experienceYears": 2,
+      "availableForHire": true
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://warrenmitchell.dev",
+      "github": "https://github.com/warrenm",
+      "linkedin": "https://www.linkedin.com/in/warrenm",
+      "twitter": "https://x.com/warrenm"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 916
+    },
+    "createdAt": "2025-01-22T09:00:00.000Z",
+    "updatedAt": "2026-04-10T10:30:00.000Z"
   },
   {
     "id": 50,
-    "name": "Xena Blair",
+    "userId": 50,
+    "displayName": "Xena Blair",
     "username": "xenab",
-    "email": "xena.blair@example.com",
     "avatar": "https://i.pravatar.cc/150?img=50",
-    "phone": "+1-202-555-5050",
-    "website": "https://xenablair.io",
-    "address": {
-      "street": "55 Cedar St",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Xena Blair builds practical software tools from New Orleans, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "New Orleans",
-      "zipcode": "70112"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Product",
+      "experienceYears": 3,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://xenablair.io",
+      "github": "https://github.com/xenab",
+      "linkedin": "https://www.linkedin.com/in/xenab",
+      "twitter": "https://x.com/xenab"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 2,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 933
+    },
+    "createdAt": "2025-01-23T10:00:00.000Z",
+    "updatedAt": "2026-04-11T11:30:00.000Z"
   },
   {
     "id": 51,
-    "name": "Yusuf Reyes",
+    "userId": 51,
+    "displayName": "Yusuf Reyes",
     "username": "yusufr",
-    "email": "yusuf.reyes@example.com",
     "avatar": "https://i.pravatar.cc/150?img=51",
-    "phone": "+1-202-555-5151",
-    "website": "https://yusufreyes.dev",
-    "address": {
-      "street": "23 Palm Blvd",
+    "headline": "Frontend Developer at RiftLabs",
+    "bio": "Yusuf Reyes builds practical software tools from Arlington, with a focus on API design and reliable developer workflows.",
+    "location": {
       "city": "Arlington",
-      "zipcode": "76010"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Frontend Developer",
+      "company": "RiftLabs",
+      "department": "Platform",
+      "experienceYears": 4,
+      "availableForHire": false
+    },
+    "skills": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "social": {
+      "website": "https://yusufreyes.dev",
+      "github": "https://github.com/yusufr",
+      "linkedin": "https://www.linkedin.com/in/yusufr",
+      "twitter": "https://x.com/yusufr"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 950
+    },
+    "createdAt": "2025-01-24T11:00:00.000Z",
+    "updatedAt": "2026-04-12T12:30:00.000Z"
   },
   {
     "id": 52,
-    "name": "Zoe Holland",
+    "userId": 52,
+    "displayName": "Zoe Holland",
     "username": "zoeh",
-    "email": "zoe.holland@example.com",
     "avatar": "https://i.pravatar.cc/150?img=52",
-    "phone": "+1-202-555-5252",
-    "website": "https://zoeholland.io",
-    "address": {
-      "street": "18 Maple Rd",
+    "headline": "Backend Developer at MockForge",
+    "bio": "Zoe Holland builds practical software tools from Wichita, with a focus on frontend prototyping and reliable developer workflows.",
+    "location": {
       "city": "Wichita",
-      "zipcode": "67202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Backend Developer",
+      "company": "MockForge",
+      "department": "Engineering",
+      "experienceYears": 5,
+      "availableForHire": false
+    },
+    "skills": [
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL"
+    ],
+    "social": {
+      "website": "https://zoeholland.io",
+      "github": "https://github.com/zoeh",
+      "linkedin": "https://www.linkedin.com/in/zoeh",
+      "twitter": "https://x.com/zoeh"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 967
+    },
+    "createdAt": "2025-01-25T12:00:00.000Z",
+    "updatedAt": "2026-04-13T13:30:00.000Z"
   },
   {
     "id": 53,
-    "name": "Aaron Jennings",
+    "userId": 53,
+    "displayName": "Aaron Jennings",
     "username": "aaronj",
-    "email": "aaron.jennings@example.com",
     "avatar": "https://i.pravatar.cc/150?img=53",
-    "phone": "+1-202-555-5353",
-    "website": "https://aaronjennings.dev",
-    "address": {
-      "street": "60 Spruce St",
+    "headline": "Full Stack Developer at JsonWorks",
+    "bio": "Aaron Jennings builds practical software tools from Raleigh, with a focus on mock data and reliable developer workflows.",
+    "location": {
       "city": "Raleigh",
-      "zipcode": "27601"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Full Stack Developer",
+      "company": "JsonWorks",
+      "department": "Product",
+      "experienceYears": 6,
+      "availableForHire": true
+    },
+    "skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "UI Systems"
+    ],
+    "social": {
+      "website": "https://aaronjennings.dev",
+      "github": "https://github.com/aaronj",
+      "linkedin": "https://www.linkedin.com/in/aaronj",
+      "twitter": "https://x.com/aaronj"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 984
+    },
+    "createdAt": "2025-01-26T13:00:00.000Z",
+    "updatedAt": "2026-04-14T14:30:00.000Z"
   },
   {
     "id": 54,
-    "name": "Bella Simmons",
+    "userId": 54,
+    "displayName": "Bella Simmons",
     "username": "bellas",
-    "email": "bella.simmons@example.com",
     "avatar": "https://i.pravatar.cc/150?img=54",
-    "phone": "+1-202-555-5454",
-    "website": "https://bellasimmons.io",
-    "address": {
-      "street": "10 Birch Ln",
+    "headline": "API Engineer at APIStudio",
+    "bio": "Bella Simmons builds practical software tools from St. Louis, with a focus on developer tooling and reliable developer workflows.",
+    "location": {
       "city": "St. Louis",
-      "zipcode": "63101"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "API Engineer",
+      "company": "APIStudio",
+      "department": "Platform",
+      "experienceYears": 7,
+      "availableForHire": false
+    },
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Automation"
+    ],
+    "social": {
+      "website": "https://bellasimmons.io",
+      "github": "https://github.com/bellas",
+      "linkedin": "https://www.linkedin.com/in/bellas",
+      "twitter": "https://x.com/bellas"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 101
+    },
+    "createdAt": "2025-01-27T14:00:00.000Z",
+    "updatedAt": "2026-04-15T15:30:00.000Z"
   },
   {
     "id": 55,
-    "name": "Caleb Foster",
+    "userId": 55,
+    "displayName": "Caleb Foster",
     "username": "calebf",
-    "email": "caleb.foster@example.com",
     "avatar": "https://i.pravatar.cc/150?img=55",
-    "phone": "+1-202-555-5555",
-    "website": "https://calebfoster.dev",
-    "address": {
-      "street": "81 Elm Rd",
+    "headline": "Mobile Developer at Vercel Labs",
+    "bio": "Caleb Foster builds practical software tools from Anchorage, with a focus on performance and reliable developer workflows.",
+    "location": {
       "city": "Anchorage",
-      "zipcode": "99501"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Mobile Developer",
+      "company": "Vercel Labs",
+      "department": "Engineering",
+      "experienceYears": 8,
+      "availableForHire": false
+    },
+    "skills": [
+      "React Native",
+      "Expo",
+      "Mobile APIs"
+    ],
+    "social": {
+      "website": "https://calebfoster.dev",
+      "github": "https://github.com/calebf",
+      "linkedin": "https://www.linkedin.com/in/calebf",
+      "twitter": "https://x.com/calebf"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 118
+    },
+    "createdAt": "2025-01-28T15:00:00.000Z",
+    "updatedAt": "2026-04-16T10:30:00.000Z"
   },
   {
     "id": 56,
-    "name": "Diana Wallace",
+    "userId": 56,
+    "displayName": "Diana Wallace",
     "username": "dianaw",
-    "email": "diana.wallace@example.com",
     "avatar": "https://i.pravatar.cc/150?img=56",
-    "phone": "+1-202-555-5656",
-    "website": "https://dianawallace.dev",
-    "address": {
-      "street": "13 Oak Blvd",
+    "headline": "DevOps Engineer at CodeNest",
+    "bio": "Diana Wallace builds practical software tools from Lexington, with a focus on automation and reliable developer workflows.",
+    "location": {
       "city": "Lexington",
-      "zipcode": "40507"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "DevOps Engineer",
+      "company": "CodeNest",
+      "department": "Product",
+      "experienceYears": 9,
+      "availableForHire": false
+    },
+    "skills": [
+      "Docker",
+      "CI/CD",
+      "Vercel"
+    ],
+    "social": {
+      "website": "https://dianawallace.dev",
+      "github": "https://github.com/dianaw",
+      "linkedin": "https://www.linkedin.com/in/dianaw",
+      "twitter": "https://x.com/dianaw"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 1,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 135
+    },
+    "createdAt": "2025-01-01T16:00:00.000Z",
+    "updatedAt": "2026-04-17T11:30:00.000Z"
   },
   {
     "id": 57,
-    "name": "Ethan Steele",
+    "userId": 57,
+    "displayName": "Ethan Steele",
     "username": "ethans",
-    "email": "ethan.steele@example.com",
     "avatar": "https://i.pravatar.cc/150?img=57",
-    "phone": "+1-202-555-5757",
-    "website": "https://ethansteele.io",
-    "address": { "street": "75 Pine St", "city": "Boise", "zipcode": "83702" }
+    "headline": "Product Designer at DataBridge",
+    "bio": "Ethan Steele builds practical software tools from Boise, with a focus on open source and reliable developer workflows.",
+    "location": {
+      "city": "Boise",
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Product Designer",
+      "company": "DataBridge",
+      "department": "Platform",
+      "experienceYears": 10,
+      "availableForHire": true
+    },
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "Accessibility"
+    ],
+    "social": {
+      "website": "https://ethansteele.io",
+      "github": "https://github.com/ethans",
+      "linkedin": "https://www.linkedin.com/in/ethans",
+      "twitter": "https://x.com/ethans"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 0,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 152
+    },
+    "createdAt": "2025-01-02T09:00:00.000Z",
+    "updatedAt": "2026-04-18T12:30:00.000Z"
   },
   {
     "id": 58,
-    "name": "Fiona Burke",
+    "userId": 58,
+    "displayName": "Fiona Burke",
     "username": "fionab",
-    "email": "fiona.burke@example.com",
     "avatar": "https://i.pravatar.cc/150?img=58",
-    "phone": "+1-202-555-5858",
-    "website": "https://fionaburke.dev",
-    "address": {
-      "street": "27 Cedar St",
+    "headline": "QA Engineer at PixelStack",
+    "bio": "Fiona Burke builds practical software tools from Buffalo, with a focus on mobile apps and reliable developer workflows.",
+    "location": {
       "city": "Buffalo",
-      "zipcode": "14202"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "QA Engineer",
+      "company": "PixelStack",
+      "department": "Engineering",
+      "experienceYears": 11,
+      "availableForHire": false
+    },
+    "skills": [
+      "Testing",
+      "Playwright",
+      "API QA"
+    ],
+    "social": {
+      "website": "https://fionaburke.dev",
+      "github": "https://github.com/fionab",
+      "linkedin": "https://www.linkedin.com/in/fionab",
+      "twitter": "https://x.com/fionab"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": false,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 169
+    },
+    "createdAt": "2025-01-03T10:00:00.000Z",
+    "updatedAt": "2026-04-19T13:30:00.000Z"
   },
   {
     "id": 59,
-    "name": "Gavin Tate",
+    "userId": 59,
+    "displayName": "Gavin Tate",
     "username": "gavint",
-    "email": "gavin.tate@example.com",
     "avatar": "https://i.pravatar.cc/150?img=59",
-    "phone": "+1-202-555-5959",
-    "website": "https://gavintate.dev",
-    "address": {
-      "street": "39 Magnolia Ln",
+    "headline": "Technical Writer at CloudMint",
+    "bio": "Gavin Tate builds practical software tools from Reno, with a focus on testing and reliable developer workflows.",
+    "location": {
       "city": "Reno",
-      "zipcode": "89501"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Technical Writer",
+      "company": "CloudMint",
+      "department": "Product",
+      "experienceYears": 12,
+      "availableForHire": false
+    },
+    "skills": [
+      "Documentation",
+      "OpenAPI",
+      "Developer Education"
+    ],
+    "social": {
+      "website": "https://gavintate.dev",
+      "github": "https://github.com/gavint",
+      "linkedin": "https://www.linkedin.com/in/gavint",
+      "twitter": "https://x.com/gavint"
+    },
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 186
+    },
+    "createdAt": "2025-01-04T11:00:00.000Z",
+    "updatedAt": "2026-04-20T14:30:00.000Z"
   },
   {
     "id": 60,
-    "name": "Hannah Doyle",
+    "userId": 60,
+    "displayName": "Hannah Doyle",
     "username": "hannahd",
-    "email": "hannah.doyle@example.com",
     "avatar": "https://i.pravatar.cc/150?img=60",
-    "phone": "+1-202-555-6060",
-    "website": "https://hannahdoyle.io",
-    "address": {
-      "street": "93 Birch Ave",
+    "headline": "Data Analyst at SchemaHouse",
+    "bio": "Hannah Doyle builds practical software tools from Des Moines, with a focus on documentation and reliable developer workflows.",
+    "location": {
       "city": "Des Moines",
-      "zipcode": "50309"
-    }
+      "country": "United States",
+      "timezone": "America/New_York"
+    },
+    "work": {
+      "role": "Data Analyst",
+      "company": "SchemaHouse",
+      "department": "Platform",
+      "experienceYears": 13,
+      "availableForHire": false
+    },
+    "skills": [
+      "SQL",
+      "Analytics",
+      "Dashboards"
+    ],
+    "social": {
+      "website": "https://hannahdoyle.io",
+      "github": "https://github.com/hannahd",
+      "linkedin": "https://www.linkedin.com/in/hannahd",
+      "twitter": "https://x.com/hannahd"
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "emailNotifications": true,
+      "publicProfile": true
+    },
+    "stats": {
+      "postsCount": 0,
+      "reviewsCount": 1,
+      "todosCount": 0,
+      "albumsCount": 0,
+      "reputation": 203
+    },
+    "createdAt": "2025-01-05T12:00:00.000Z",
+    "updatedAt": "2026-04-01T15:30:00.000Z"
   }
 ]

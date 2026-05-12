@@ -22,7 +22,12 @@ function withCORS(response: NextResponse) {
 // Helper function to format JSON response
 function prettyJSON<T>(data: T, status = 200) {
   // For pretty dev output, you could switch to manual JSON.stringify with indentation.
-  return withCORS(NextResponse.json(data, { status }));
+  const jsonString = JSON.stringify(data, null, 2);
+  const response = new NextResponse(jsonString, {
+    status,
+    headers: { "Content-Type": "application/json" },
+  });
+  return withCORS(response);
 }
 
 export async function GET(request: NextRequest) {

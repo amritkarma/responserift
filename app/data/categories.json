@@ -1,52 +1,197 @@
 [
   {
     "id": 1,
-    "name": "Technology",
-    "description": "Gadgets, software, and electronics to power your life."
+    "name": "API Design",
+    "description": "API Design related mock data for ResponseRift API resources."
   },
   {
     "id": 2,
-    "name": "Home & Living",
-    "description": "Appliances, furniture, and essentials for your home."
+    "name": "Architecture",
+    "description": "Architecture related mock data for ResponseRift API resources."
   },
   {
     "id": 3,
-    "name": "Books & Media",
-    "description": "Books, magazines, and digital content for every reader."
+    "name": "Authentication",
+    "description": "Authentication related mock data for ResponseRift API resources."
   },
   {
     "id": 4,
-    "name": "Fashion",
-    "description": "Clothing, accessories, and style for all seasons."
+    "name": "Automotive",
+    "description": "Automotive related mock data for ResponseRift API resources."
   },
   {
     "id": 5,
-    "name": "Sports & Outdoors",
-    "description": "Equipment, gear, and apparel for an active lifestyle."
+    "name": "Backend",
+    "description": "Backend related mock data for ResponseRift API resources."
   },
   {
     "id": 6,
-    "name": "Beauty & Personal Care",
-    "description": "Skincare, cosmetics, and wellness products."
+    "name": "Beauty",
+    "description": "Beauty related mock data for ResponseRift API resources."
   },
   {
     "id": 7,
-    "name": "Automotive",
-    "description": "Car parts, accessories, and automotive care products."
+    "name": "Beauty & Personal Care",
+    "description": "Beauty & Personal Care related mock data for ResponseRift API resources."
   },
   {
     "id": 8,
-    "name": "Toys & Games",
-    "description": "Fun and educational toys for kids of all ages."
+    "name": "Books",
+    "description": "Books related mock data for ResponseRift API resources."
   },
   {
     "id": 9,
-    "name": "Health & Fitness",
-    "description": "Supplements, fitness gear, and health monitoring tools."
+    "name": "Books & Media",
+    "description": "Books & Media related mock data for ResponseRift API resources."
   },
   {
     "id": 10,
+    "name": "Comparison",
+    "description": "Comparison related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 11,
+    "name": "Data Modeling",
+    "description": "Data Modeling related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 12,
+    "name": "Developer Tools",
+    "description": "Developer Tools related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 13,
+    "name": "DevOps",
+    "description": "DevOps related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 14,
+    "name": "Documentation",
+    "description": "Documentation related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 15,
+    "name": "E-commerce",
+    "description": "E-commerce related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 16,
+    "name": "Fashion",
+    "description": "Fashion related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 17,
+    "name": "Features",
+    "description": "Features related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 18,
     "name": "Food & Beverages",
-    "description": "Gourmet, organic, and everyday food and drink products."
+    "description": "Food & Beverages related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 19,
+    "name": "Frontend",
+    "description": "Frontend related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 20,
+    "name": "Health & Fitness",
+    "description": "Health & Fitness related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 21,
+    "name": "Home & Living",
+    "description": "Home & Living related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 22,
+    "name": "Home Appliances",
+    "description": "Home Appliances related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 23,
+    "name": "Integration",
+    "description": "Integration related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 24,
+    "name": "Mobile",
+    "description": "Mobile related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 25,
+    "name": "Mock APIs",
+    "description": "Mock APIs related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 26,
+    "name": "Performance",
+    "description": "Performance related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 27,
+    "name": "Security",
+    "description": "Security related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 28,
+    "name": "Sports",
+    "description": "Sports related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 29,
+    "name": "Sports & Outdoors",
+    "description": "Sports & Outdoors related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 30,
+    "name": "Staging",
+    "description": "Staging related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 31,
+    "name": "Static APIs",
+    "description": "Static APIs related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 32,
+    "name": "Tech Gadgets",
+    "description": "Tech Gadgets related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 33,
+    "name": "Technology",
+    "description": "Technology related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 34,
+    "name": "Testing",
+    "description": "Testing related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 35,
+    "name": "Tooling",
+    "description": "Tooling related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 36,
+    "name": "Tools",
+    "description": "Tools related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 37,
+    "name": "Toys",
+    "description": "Toys related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 38,
+    "name": "Toys & Games",
+    "description": "Toys & Games related mock data for ResponseRift API resources."
+  },
+  {
+    "id": 39,
+    "name": "Use Cases",
+    "description": "Use Cases related mock data for ResponseRift API resources."
   }
 ]
